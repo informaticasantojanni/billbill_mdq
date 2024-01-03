@@ -4,15 +4,27 @@ export const navItems = [
       link: "/",
     },
     {
+      label: "rooms",
+      link: "/rooms",
+    },
+    {
       label: "services",
       link: "/services",
     },
     {
-      label: "about",
-      link: "/about",
+      label: "gallery",
+      link: "/gallery",
     },
     {
       label: "contact",
       link: "/contact",
+    },
+    {
+      label: "activities",
+      link: "/activities",
+    },
+    {
+      label: "location",
+      link: "/location",
     },
   ]
