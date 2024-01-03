@@ -2,9 +2,13 @@ import React from 'react'
 import { createHashRouter } from "react-router-dom";
 import GeneralLayout from '../layouts/GeneralLayout';
 import HomeView from '../../pages/home/view/HomeView';
+import RoomsView from '../../pages/rooms/view/RoomsView';
 import ServicesView from '../../pages/services/view/ServicesView';
-import AboutView from '../../pages/about/view/AboutView';
+import GalleryView from '../../pages/gallery/view/GalleryView';
 import ContactView from '../../pages/contact/view/ContactView';
+import ActivitiesView from '../../pages/activities/view/ActivitiesView';
+import LocationView from '../../pages/location/view/LocationView';
+
 
 
 export const appRouter = createHashRouter([
@@ -14,7 +18,14 @@ export const appRouter = createHashRouter([
             <GeneralLayout>
                 <HomeView />
             </GeneralLayout>
-
+        ),
+    },
+    {
+        path: "/rooms",
+        element: (
+            <GeneralLayout>
+                <RoomsView />
+            </GeneralLayout>
         ),
     },
     {
@@ -23,16 +34,14 @@ export const appRouter = createHashRouter([
             <GeneralLayout>
                 <ServicesView />
             </GeneralLayout>
-
         ),
     },
     {
-        path: "/about",
+        path: "/gallery",
         element: (
             <GeneralLayout>
-                <AboutView />
+                <GalleryView />
             </GeneralLayout>
-
         ),
     },
     {
@@ -41,7 +50,23 @@ export const appRouter = createHashRouter([
             <GeneralLayout>
                 <ContactView />
             </GeneralLayout>
-
         ),
     },
+    {
+        path: "/activities",
+        element: (
+            <GeneralLayout>
+                <ActivitiesView />
+            </GeneralLayout>
+        ),
+    },
+    {
+        path: "/location",
+        element: (
+            <GeneralLayout>
+                <LocationView />
+            </GeneralLayout>
+        ),
+    },
+
 ]);

@@ -1,9 +1,12 @@
 {
     "navbar": {
         "home": "Home",
+        "rooms": "Rooms",
         "services": "Services",
-        "about": "About me",
-        "contact": "Contact"
+        "gallery": "Gallery",
+        "contact": "Contact",
+        "activities": "Activities",
+        "location": "Location"
     },
     "home": {
         "home_about_text_1": "I am a doctor specialized in diagnostic imaging. My career includes training in Nuclear Medicine, international studies in Computed Tomography and Magnetic Resonance, as well as a continuous dedication to medical practice and teaching. My commitment to training future doctors and improving healthcare has been a constant in my career. Learn more about my history and contributions to the field of medicine!",
@@ -31,9 +34,9 @@
         "input_email": "E-mail",
         "input_phone": "Phone",
         "input_message": "Message",
-        "btn_send" : "Send",
-        "btn_sending" : "Send",
-        "btn_sent" : "Send"
+        "btn_send": "Send",
+        "btn_sending": "Send",
+        "btn_sent": "Send"
     },
     "footer": {
         "home": "Home",
