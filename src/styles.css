@@ -1,12 +1,16 @@
 /* GOOGLE FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 
 /* ********** */
 
-
+/* FORMAT STYLES */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -14,45 +18,57 @@ body {
     color: black;
 }
 
+/* VARIABLES CSS */
+
 :root {
-
-    /* FORMAT STYLES */
-
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
     /* PALETTE COLORS */
 
-    /* PRIMARY COLORS */
-
     --colorPri1: #fff;
-    --colorPri2: #F8F8F8;
-    --colorPri3: #dd6666;
-    --colorPri4: #9187c4;
-    --colorPri5: #6969B3;
-    --colorPri6: #3E4C94;
-    --colorPri7: #252442;
-    --colorPri8: #2E3033;
-    --colorPri9: #D0D0D0D0;
-
-    /* SECUNDARY COLORS */
-
-    --colorSec1: #57272e;
-    --colorSec2: #793e3f;
-    --colorSec3: #a66052;
-    --colorSec4: #df906c;
-    --colorSec5: #f2cd82;
+    --colorPri2: #04B3A7;
+    --colorPri3: #287784;
+    --colorPri4: #214026;
+    --colorPri5: #799E41;
+    --colorPri6: #D3A259;
+    --colorPri7: #E1D9C6;
+    --colorPri8: #121417; 
+    --bgColor: #FBFDF7;
 
 }
 
 /* FONTS */
 
-.titlePri1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 4rem;
+.titleSize1 {
+    font-size: calc(3vw + 20px);
 }
+
+.textSize1 {
+    font-size: calc(1vw + 10px);
+}
+
+.fontStyle1 {
+
+    font-family: 'Original Surfer';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fontColor1 {
+    color: var(--colorPri8);;
+}
+
+.fontStyle2 {
+    font-family: 'Milonga';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textSanTelmo {
+
+}
+
+
 
 .titlePri2 {
     font-family: 'Poppins', sans-serif;
@@ -101,7 +117,7 @@ body {
     font-size: 1.2rem;
 }
 
-.text3{
+.text3 {
     font-family: 'Manrope', sans-serif;
     font-weight: 200;
     font-size: 1rem;
