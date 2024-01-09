@@ -4,6 +4,7 @@ const useNavbar = () => {
 
 // Declaration of hook states
     const [mobileView, setMobileView] = useState(true);
+    
 
     // Functions
     useEffect(() => {
