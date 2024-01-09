@@ -30,7 +30,8 @@ body {
     --colorPri5: #799E41;
     --colorPri6: #D3A259;
     --colorPri7: #E1D9C6;
-    --colorPri8: #121417; 
+    --colorPri8: #121417;
+    --colorPri9: #ffffff;
     --bgColor: #FBFDF7;
 
 }
@@ -46,15 +47,10 @@ body {
 }
 
 .fontStyle1 {
-
     font-family: 'Original Surfer';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-.fontColor1 {
-    color: var(--colorPri8);;
 }
 
 .fontStyle2 {
@@ -64,10 +60,15 @@ body {
     line-height: normal;
 }
 
-.textSanTelmo {
-
+.fontColor1 {
+    color: var(--colorPri8);
+    ;
 }
 
+
+/**
+Styles usados anteriormente
+*/
 
 
 .titlePri2 {

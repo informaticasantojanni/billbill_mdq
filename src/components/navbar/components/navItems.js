@@ -11,14 +11,10 @@ export const navItems = [
       label: "services",
       link: "/services",
     },
-    {
-      label: "gallery",
-      link: "/gallery",
-    },
-    {
-      label: "contact",
-      link: "/contact",
-    },
+    // {
+    //   label: "gallery",
+    //   link: "/gallery",
+    // },
     {
       label: "activities",
       link: "/activities",
@@ -26,5 +22,9 @@ export const navItems = [
     {
       label: "location",
       link: "/location",
+    },
+    {
+      label: "contact",
+      link: "/contact",
     },
   ]
