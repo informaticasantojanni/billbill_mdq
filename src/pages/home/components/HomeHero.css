@@ -1,13 +1,12 @@
 .hero-container {
-
     margin: 0 auto;
-    background-image: url('../../../assets/abstract_background_3.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../../../assets/billbillMdq1.jpg');
     background-size: cover;
-    background-position: left;
+    background-position: top;
     background-repeat: no-repeat;
-    height: 500px;
-    
+    height: 800px;
 }
+
 
 /* .hero-container::before {
     content: "";

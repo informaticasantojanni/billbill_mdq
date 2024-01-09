@@ -1,25 +1,29 @@
-.switchLanguage select {
+.switchLanguage {
+    margin: 0 2rem;
+    padding: 0.5rem;
+    border: none;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid var(--colorPri8);
+    border-radius: 5px;
+
+}
+
+
+
+/* .switchLanguage select {
     appearance: none;
-    /* Remove default styles (may not work in all browsers) */
     -webkit-appearance: none;
     -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
 }
 
-.switchLanguage {
-    padding: 0;
-    border: none;
-    width: 100px;
-
-}
-
 .switchLanguage .select{
-
     display: flex;
     align-items: center;
 }
 
 .imgFlag {
     width: 30px;
-}
+} */
