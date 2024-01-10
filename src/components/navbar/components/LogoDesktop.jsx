@@ -1,6 +1,7 @@
 import React from 'react'
 import useNavDesktop from './useNavDesktop'
 import Logo from '../../../assets/logos/logo_billbill_2.svg';
+// import { ReactComponent as Logo } from '../../../assets/logos/logo_billbill_1.svg';
 
 const LogoDesktop = () => {
 
@@ -9,7 +10,7 @@ const LogoDesktop = () => {
         LOGO_SIZE } = useNavDesktop();
 
     return (
-        <div>
+        <div className="navDesktop__logo">
             <img
                 style={{
                     width: `${LOGO_SIZE + (LOGO_SIZE * logoSize)}px`,
