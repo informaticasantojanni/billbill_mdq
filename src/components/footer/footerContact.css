@@ -1,0 +1,18 @@
+.footerContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 40px;
+    color: white;
+}
+
+.footerContact a {
+    text-decoration: none;
+    color: white; 
+  }
+
+  .footerContact span{
+    margin-left: 5px;
+  }

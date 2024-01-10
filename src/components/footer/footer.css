@@ -1,16 +1,52 @@
 footer {
     background-color: var(--colorPri8);
-    min-height: 500px;
     width: 100%;
+    min-height: 800px;
     clip-path: polygon(0 3rem, 100% 0, 100% 100%, 0 100%);
     position: relative;
 }
 
-.footer-container {
+.footerContainer {
     position: relative;
-    top: 5rem;
+    height: 100%;
+    top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Media query for devices with a maximum width of 600 pixels */
+@media only screen and (min-width: 1440px) {
+
+    .footerContainer{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        top:15rem
+    }
+
+    
+    .logoFooter{
+        grid-column: span 2;
+    }
+
+    .contactFooter1{
+        grid-column: span 4;
+    }
+
+    .contactFooter2{
+        grid-column: span 4;
+
+    }
+
+    .socialFooter{
+        grid-column: span 2;
+    }
+
+    .copyFooter{
+        grid-column: span 12;
+        display: flex;
+        justify-content: center;
+        margin-top: 15rem;
+    }
 }

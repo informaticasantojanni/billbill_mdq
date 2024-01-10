@@ -5,3 +5,18 @@
     align-items: center;
 }
 
+/* Provisorio */
+.footer-logo figcaption {
+    color: white;
+}
+
+.footer-logo figure a {
+    height: 90px;
+}
+
+.footer-logo figure img {
+    height: 100px;
+    width: 100px;
+}
+
+

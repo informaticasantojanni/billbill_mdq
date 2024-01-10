@@ -1,0 +1,14 @@
+.footerSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.footerSocial--items{
+    display: flex;
+    margin-top: 20px;
+    gap: 1rem;
+}

@@ -1,8 +1,9 @@
 import React from 'react'
+import './footerContact.css'
 
 const FooterContact = ({iconLocation, iconEmail, iconPhone, textContact, emailContact, telContact, addressContact}) => {
   return (
-    <div className="contactSanTelmo footer-help">
+    <div className="footerContact">
     <h3>{textContact}</h3>
     <a href={`mailto:${emailContact}`}>
       {iconEmail}

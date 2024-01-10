@@ -1,8 +1,9 @@
 import React from 'react'
+import './footerCopyright.css'
 
 const FooterCopyright = ({textYear, textDevelop, textRight}) => {
   return (
-    <div className="footer-copyright">
+    <div className="footerCopyright">
     <small>&copy; {textYear} <b>{textDevelop}</b>{textRight}</small>
   </div>
   )

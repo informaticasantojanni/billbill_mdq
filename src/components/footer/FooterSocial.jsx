@@ -1,10 +1,11 @@
 import React from 'react'
+import './footerSocial.css'
 
 const FooterSocial = ({ socialText, linkFb, linkIg, iconFb, iconIg }) => {
     return (
-        <div className="footer-social">
+        <div className="footerSocial">
             <h3>{socialText}</h3>
-            <div >
+            <div className='footerSocial--items'>
                 <a href={linkFb} target='_blank'>
                     {iconFb}
                 </a>
