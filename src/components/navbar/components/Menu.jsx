@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { navItems } from "./navItems"
 import useNavDesktop from './useNavDesktop';
+import '../../navbar/navbar.css';
+import "../../../../src/styles.css"
 
 const Menu = () => {
     const { t,
