@@ -65,7 +65,7 @@ const Footer = () => {
 
         <FooterCopyright
           textYear='2024'
-          textDevelop='Design by El Hornero'
+          textDevelop='Hornero Web'
           textRight='-Todos los derechos reservados.'
         />
       </div>
