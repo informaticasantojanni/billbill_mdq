@@ -6,11 +6,14 @@ const useNavDesktop = () => {
     const { t } = useTranslation('translation', { keyPrefix: 'navbar' });
     const [alpha, setAlpha] = useState(0.2);
     const [logoSize, setLogoSize] = useState(60);
+
     var calcLogoSize = 0;
     var calcAlpha = 0;
     const SCROLL_BREAK = 1000;
-    const LOGO_SIZE = 50;
+    const LOGO_SIZE = 90;
+    const NAV_HX = 50;
     const BILL_SIZE = 20;
+    const [poligonClip, setPoligonClip] = useState(NAV_HX);
 
 
     useEffect(() => {
@@ -20,7 +23,7 @@ const useNavDesktop = () => {
             const handleScroll = () => {
                 calcAlpha = window.scrollY;
                 console.log(calcAlpha)
-                calcAlpha = 0.2 + (5* calcAlpha / SCROLL_BREAK);
+                calcAlpha = 0.2 + (2* calcAlpha / SCROLL_BREAK);
                 setAlpha(calcAlpha > 1 ? 1 : calcAlpha);
 
                 calcLogoSize = 1 - (3*window.scrollY / SCROLL_BREAK);
@@ -38,7 +41,8 @@ const useNavDesktop = () => {
         t,
         alpha,
         logoSize,
-        LOGO_SIZE
+        LOGO_SIZE,
+        NAV_HX
     }
 }
 

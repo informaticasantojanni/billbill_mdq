@@ -10,31 +10,24 @@ import Menu from './Menu';
 import Social from './Social'
 
 const NavDesktop = () => {
-
-  const { alpha } = useNavDesktop();
-
+  const { alpha, logoSize, NAV_HX } = useNavDesktop();
 
   return (
     <nav>
       <div className="navDesktop--container"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, ${alpha}), rgba(255,255,255, ${alpha}))`
+          backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, ${alpha}))`,
+          clipPath: `polygon(0 0, 100% 0, 100% 50%, 0 ${NAV_HX + (NAV_HX * logoSize)}%)`
         }}>
 
-        {/* Logo Container */}
-        <div className="navDesktop__logo">
-          <LogoDesktop />
+        <LogoDesktop /> {/* Logo Container */}
+
+        <div className='navDesktop--containerInner'>
+          <Menu /> {/* Menu Container */}
+          <Social /> {/* Social Container */}
+          <SwitchLanguage />
         </div>
 
-        {/* Menu Container */}
-        <div className="navDesktop__links">
-          <Menu />
-        </div>
-
-        {/* Social Container */}
-        <Social />
-
-        <SwitchLanguage />
       </div>
     </nav>
   )

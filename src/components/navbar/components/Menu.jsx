@@ -8,7 +8,7 @@ const Menu = () => {
         alpha } = useNavDesktop();
 
     return (
-        <div>
+        <div className="navDesktop__links">
             <ul>
                 {navItems.map((item, index) => {
                     return (
