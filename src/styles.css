@@ -44,7 +44,7 @@ body {
 }
 
 .textSize1 {
-    font-size: calc(1vw + 8px);
+    font-size: calc(0.5vw + 10px);
 }
 
 .fontStyle1 {
