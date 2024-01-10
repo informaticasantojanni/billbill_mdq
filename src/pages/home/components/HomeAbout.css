@@ -30,7 +30,7 @@
     background-size: cover; */
 }
 
-.homeAbout--image  img {
+.homeAbout--image img {
     width: 100%;
 }
 
@@ -38,7 +38,7 @@
 /* Media query for devices with a maximum width of 600 pixels */
 @media only screen and (min-width: 768px) {
     .homeAbout {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
 

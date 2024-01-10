@@ -9,11 +9,14 @@
         "location": "Location"
     },
     "home": {
-        "home_about_text_1": "I am a doctor specialized in diagnostic imaging. My career includes training in Nuclear Medicine, international studies in Computed Tomography and Magnetic Resonance, as well as a continuous dedication to medical practice and teaching. My commitment to training future doctors and improving healthcare has been a constant in my career. Learn more about my history and contributions to the field of medicine!",
-        "home_about_btn_1": " View more",
-        "home_services_title_1": "Distance Study Reports",
-        "home_services_text_1": "Aimed at: Medical institutions, doctors and patients for first or second opinion. Studies carried out in other diagnostic centers.",
-        "home_contact_text_1": "Send an email"
+        "home_about_title_1": "Welcome!",
+        "home_about_text_1": "¡Discover the authentic San Telmo experience at Bill and Bill Hostel!",
+        "home_about_text_2": "Our hostel is situated in the heart of San Telmo, the ideal starting point for your journey in the Argentine capital.",
+        "home_about_text_3": "Our friendly staff will welcome you with open arms, ensuring that you feel at home from the moment you arrive.",
+        "home_about_text_4": "We take pride in creating a warm and laid-back atmosphere where travelers from around the globe can connect and share experiences.",
+        "home_services_title_1": "Informes de Estudios a Distancia",
+        "home_services_text_1": "Dirigido a: Instituciones médicas, médicos y pacientes para primera o segunda opinión. Estudios realizados en otros centros de diagnóstico.",
+        "home_contact_text_1": "Envie su consulta"
     },
     "services": {
         "title_1": "Telediagnosis",

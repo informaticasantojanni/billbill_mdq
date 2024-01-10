@@ -9,8 +9,11 @@
         "location": "Ubicacion"
     },
     "home": {
-        "home_about_text_1": "Soy médica especializada en diagnóstico por imágenes. Mi trayectoria incluye formación en Medicina Nuclear, estudios internacionales en Tomografía Computada y Resonancia Magnética, así como una dedicación continua a la práctica médica y la docencia. Mi compromiso con la formación de futuros médicos y la mejora de la atención médica ha sido una constante en mi carrera. ¡Aprende más sobre mi historia y contribuciones en el campo de la medicina!",
-        "home_about_btn_1": " Ver más",
+        "home_about_title_1": "Bienvenidos!",
+        "home_about_text_1": "¡Descubrí la auténtica experiencia de San Telmo en Bill and Bill Hostel!",
+        "home_about_text_2": "Nuestro Hostel está ubicado en el corazón de San Telmo, el lugar perfecto para comenzar tu viaje en la capital argentina.",
+        "home_about_text_3": "Nuestro amigable personal te recibirá con los brazos abiertos, asegurándose de que te sientas como en casa desde el momento en que llegás.",
+        "home_about_text_4": "Nos enorgullece crear un ambiente acogedor y relajado donde los viajeros de todo el mundo pueden conocerse y compartir experiencias.",
         "home_services_title_1": "Informes de Estudios a Distancia",
         "home_services_text_1": "Dirigido a: Instituciones médicas, médicos y pacientes para primera o segunda opinión. Estudios realizados en otros centros de diagnóstico.",
         "home_contact_text_1": "Envie su consulta"
