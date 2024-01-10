@@ -1,7 +1,5 @@
 import React from 'react'
 import SwitchLanguage from './SwitchLanguage';
-// import { ReactComponent as Logo } from '../../../assets/logos/logo_billbill_1.svg';
-
 import '../../navbar/navbar.css';
 import "../../../../src/styles.css"
 import useNavDesktop from './useNavDesktop';
