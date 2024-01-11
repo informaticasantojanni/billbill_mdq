@@ -1,4 +1,12 @@
 .footerCopyright {
-    margin-top: 3rem;
-    color: white;
+    margin-top: 55px;
+    color: var(--colorPri1);
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    padding: 0 1rem;
 }
+

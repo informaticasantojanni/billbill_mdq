@@ -7,10 +7,10 @@ const FooterSocial = ({ socialText, linkFb, linkIg, iconFb, iconIg }) => {
             <h3>{socialText}</h3>
             <div className='footerSocial--items'>
                 <a href={linkFb} target='_blank'>
-                    {iconFb}
+                    <img src={iconFb} alt="Facebook" />
                 </a>
                 <a href={linkIg} target='_blank'>
-                    {iconIg}
+                    <img src={iconIg} alt="Instagram" />
                 </a>
             </div>
         </div>

@@ -4,17 +4,17 @@ import './footerContact.css'
 const FooterContact = ({iconLocation, iconEmail, iconPhone, textContact, emailContact, telContact, addressContact}) => {
   return (
     <div className="footerContact">
-    <h3>{textContact}</h3>
+    <h3 className='fontStyle4'>{textContact}</h3>
     <a href={`mailto:${emailContact}`}>
-      {iconEmail}
+    <img src={iconEmail} alt="Email"/>
       <span>{emailContact}</span>
     </a>
     <a href="#">
-      {iconPhone}
+    <img src={iconPhone} alt="Phone"/>
       <span>{telContact}</span>
     </a>
     <a href="#" className='no-link'>
-      {iconLocation}
+    <img src={iconLocation} alt="Location"/>
       <span>{addressContact}</span>
     </a>
   </div>

@@ -1,7 +1,7 @@
 footer {
     background-color: var(--colorPri8);
     width: 100%;
-    min-height: 800px;
+    height: 900px;
     clip-path: polygon(0 3rem, 100% 0, 100% 100%, 0 100%);
     position: relative;
 }
@@ -14,39 +14,45 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
-/* Media query for devices with a maximum width of 600 pixels */
+
 @media only screen and (min-width: 1440px) {
+
+    footer {
+        height: 760px;
+    }
 
     .footerContainer{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        top:15rem
+        top:15rem;
+        padding-top: auto;
     }
 
-    
     .logoFooter{
-        grid-column: span 2;
+        grid-column: span 3;
     }
 
     .contactFooter1{
-        grid-column: span 4;
+        grid-column: span 3;
     }
 
     .contactFooter2{
-        grid-column: span 4;
+        grid-column: span 3;
 
     }
 
     .socialFooter{
-        grid-column: span 2;
+        grid-column: span 3;
     }
 
     .copyFooter{
         grid-column: span 12;
         display: flex;
         justify-content: center;
-        margin-top: 15rem;
+        /* align-items: start; */
+        margin-top: 5rem;
     }
 }

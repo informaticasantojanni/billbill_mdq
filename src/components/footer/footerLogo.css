@@ -1,11 +1,12 @@
-.footer-logo figure {
+.footer-logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
-
-
-
+.footer-logo img {
+    width: 185px;
+    height: 185px;
+    flex-shrink: 0;
+}
