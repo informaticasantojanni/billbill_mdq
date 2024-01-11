@@ -6,17 +6,16 @@ import roomsList from "./roomsList";
 import RoomCard from './RoomCard';
 
 
-const HomeRooms = () => {
+const HomeRooms = ({ mb }) => {
 
     const { t } = useHome();
 
 
     return (
         <div className="main-container">
-            <div className="homeRooms mb-5">
-
+            <div className={`homeRooms ${mb}`}>
                 <p className='titleSize1 fontStyle1 fontColor2 mb-2'>{t('home_rooms_title_1')}</p>
-                <p className='textSize1 fontStyle4 fontColor1'>{t('home_rooms_text_1')}</p>
+                <p className='textSize1 fontStyle4 fontColor8'>{t('home_rooms_text_1')}</p>
 
                 <div className='homeRooms__gallery'>
                     {roomsList.map(room => (

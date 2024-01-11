@@ -44,7 +44,7 @@ nav {
 }
 
 .navMobile__header.expanded {
-  background-color: var(--colorPri2);
+  background-color: var(--colorPri1);
 }
 
 .navMobile__header.expanded label span {
@@ -57,7 +57,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--colorPri4);
+  background-color: var(--colorPri1);
   padding-top: 100px;
   transform: scale(0);
   transition: opacity 0.5s ease-in-out, transform 0.2s ease-in-out;
@@ -87,12 +87,12 @@ nav {
 .navMobile__body li .linkTo {
   text-decoration: none;
   cursor: pointer;
-  color: var(--colorPri2);
+  color: var(--colorPri8);
 }
 
 .navMobile__body li .linkTo:hover {
   text-decoration: none;
-  color: var(--colorPri7)
+  color: var(--colorPri2)
 }
 
 

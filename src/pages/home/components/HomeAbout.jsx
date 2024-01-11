@@ -5,7 +5,7 @@ import useHome from './useHome';
 
 
 
-const HomeAbout = () => {
+const HomeAbout = ({mb}) => {
 
   const { t, truncate } = useHome();
 
@@ -13,7 +13,7 @@ const HomeAbout = () => {
 
 
     <div className="main-container">
-      <div className="homeAbout mb-5">
+      <div className= {`homeAbout ${mb}`}>
 
         <p className='titleSize1 fontStyle1 fontColor2 mb-2'>{t('home_about_title_1')}</p>
 

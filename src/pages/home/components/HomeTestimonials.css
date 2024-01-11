@@ -1,0 +1,71 @@
+
+.testimonials-swiper {
+}
+
+.swiper{
+  display: flex !important;
+  align-items: flex-end !important;
+}
+
+.testimonials-swiperSlide {
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Estilos para la clase "card" */
+.testimonials-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+
+.testimonials-card-header {
+  /* border: 1px solid #000; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-card-header .name {
+  margin-left: 40px;
+}
+
+.testimonials-card-header .nationality-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-card-header .flag{
+  all: initial;
+  margin-left: 40px;
+  width: 18px !important;
+  height: 12px !important;
+}
+
+.testimonials-card-header .nationality {
+  margin-left: 10px;
+}
+
+.testimonials-card-body {
+  padding: 2rem 1rem;
+}
+
+
+/* Estilos para la imagen dentro de la "card" */
+.testimonials-card img {
+  width: 70px;
+  height: auto;
+  border-radius: 100px;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  background-color: transparent;
+}

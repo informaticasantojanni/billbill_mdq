@@ -2,9 +2,9 @@ import React from 'react'
 import "./HomeHero.css"
 import "../../../../src/styles.css"
 
-const HomeHero = () => {
+const HomeHero = ({mb}) => {
   return (
-    <div className='hero-container mb-5'>
+    <div className= {`hero-container ${mb}`}>
       
     </div>
   )

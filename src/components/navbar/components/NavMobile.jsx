@@ -49,7 +49,7 @@ const NavMobile = () => {
                             <Hamburger menuOpen={menuOpen} setMenuOpen={setMenuOpen} hamburgerCheckbox={hamburgerCheckbox} setHamburgerCheckbox={setHamburgerCheckbox} />
                         </div>
                         <div>
-                            <p className='titleSec3'>Dra. María Elena Levín</p>
+                            <p className='titleSec3'>Bill&Bill</p>
                         </div>
                         <SwitchLanguage />
                         {/* <div>

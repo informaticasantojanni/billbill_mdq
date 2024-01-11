@@ -16,7 +16,21 @@
         "home_about_text_4": "Orgulhamo-nos de criar um ambiente acolhedor e descontraído, onde viajantes de todo o mundo podem se conhecer e compartilhar experiências.",
         "home_services_title_1": "Informes de Estudios a Distancia",
         "home_services_text_1": "Dirigido a: Instituciones médicas, médicos y pacientes para primera o segunda opinión. Estudios realizados en otros centros de diagnóstico.",
-        "home_contact_text_1": "Envie su consulta"
+        "home_contact_text_1": "Envie su consulta",
+        "home_rooms_title_1": "Quartos",
+        "home_rooms_text_1": "Oferecemos uma variedade de opções de acomodação para atender às suas necessidades. Quer prefira dormitórios compartilhados ou quartos privados, todos são projetados para oferecer conforto e privacidade.",
+        "home_rooms_card_1_category": "Quartos Compartilhados",
+        "home_rooms_card_1_type": "Apenas para Homens",
+        "home_rooms_card_1_bathroom": "Banheiro Compartilhado",
+        "home_rooms_card_2_category": "Quartos Compartilhados",
+        "home_rooms_card_2_type": "Apenas para Mulheres",
+        "home_rooms_card_2_bathroom": "Banheiro Compartilhado",
+        "home_rooms_card_3_category": "Quartos Compartilhados",
+        "home_rooms_card_3_type": "Mistos",
+        "home_rooms_card_3_bathroom": "Banheiro Compartilhado",
+        "home_rooms_card_4_category": "Quartos Privativos",
+        "home_rooms_card_4_type": "",
+        "home_rooms_card_4_bathroom": "Banheiro Privativo"
     },
     "services": {
         "title_1": "Telediagnóstico",

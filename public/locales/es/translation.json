@@ -16,6 +16,19 @@
         "home_about_text_4": "Nos enorgullece crear un ambiente acogedor y relajado donde los viajeros de todo el mundo pueden conocerse y compartir experiencias.",
         "home_rooms_title_1": "Habitaciones",
         "home_rooms_text_1": "Ofrecemos una variedad de opciones de alojamiento para adaptarnos a tus necesidades. Ya sea que prefieras dormitorios compartidos o habitaciones privadas, todas están diseñadas para brindarte comodidad y privacidad.",
+        "home_rooms_card_1_category": "Habitaciones compartidas",
+        "home_rooms_card_1_type": "Solo chicos",
+        "home_rooms_card_1_bathroom": "Baño compartido",
+        "home_rooms_card_2_category": "Habitaciones compartidas",
+        "home_rooms_card_2_type": "Solo chicas",
+        "home_rooms_card_2_bathroom": "Baño compartido",
+        "home_rooms_card_3_category": "Habitaciones compartidas",
+        "home_rooms_card_3_type": "Mixtas",
+        "home_rooms_card_3_bathroom": "Baño compartido",
+        "home_rooms_card_4_category": "Habitaciones privadas",
+        "home_rooms_card_4_type": "",
+        "home_rooms_card_4_bathroom": "Baño privado",
+
         "home_contact_text_1": "Envie su consulta"
     },
     "services": {
