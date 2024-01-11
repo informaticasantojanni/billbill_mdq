@@ -26,7 +26,7 @@ const Footer = () => {
 
 
   return (
-    <footer>
+    <div className='footer'>
       <div className='footerContainer'>
         <div className='logoFooter'>
           <FooterLogo
@@ -77,7 +77,7 @@ const Footer = () => {
         </div>
 
       </div>
-    </footer>
+    </div >
   )
 }
 
