@@ -1,5 +1,4 @@
 .hero-container {
-    margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../../../assets/billbillMdq1.jpg');
     background-size: cover;
     background-position: top;

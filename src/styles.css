@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 /* ********** */
 
@@ -43,7 +44,7 @@ body {
 }
 
 .textSize1 {
-    font-size: calc(1vw + 10px);
+    font-size: calc(0.5vw + 10px);
 }
 
 .fontStyle1 {
@@ -59,6 +60,20 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+.fontStyle3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.fontStyle4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 .fontColor1 {
     color: var(--colorPri8);
