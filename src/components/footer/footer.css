@@ -1,44 +1,93 @@
-.footer-container {
-    color: var(--colorPri1);
+.footer {
     background-color: var(--colorPri8);
-    padding: 5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.footer-section {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    clip-path: polygon(0 3rem, 100% 0, 100% 100%, 0 100%);
+    margin-top: 10rem;
 }
 
-.footer-section .container {
+
+.footerContainer {
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+    .footerContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        top:15rem;
+       
+
+    }
+
+    .logoFooter{
+        grid-column: span 4;
+    }
+
+    .contactFooter1{
+        grid-column: span 2;
+    }
+
+    .contactFooter2{
+        grid-column: span 2;
+
+    }
+
+    .socialFooter{
+        grid-column: span 4;
+    }
+
+    .copyFooter{
+        grid-column: span 4;
+        display: flex;
+        justify-content: center;
+        /* align-items: start; */
+        margin-top: 5rem;
+    }
 }
 
 
-.logo {
-    font-size: 2rem;
-}
+@media only screen and (min-width: 1440px) {
 
+    /* footer {
+        height: 760px;
+    } */
 
-
-
-/* Media query for screens with a maximum width of 600px */
-@media (max-width: 780px) {
-    .footer-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, auto);
+    .footerContainer{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        top:15rem;
+        padding-top: auto;
     }
 
-    .footer-section {
-        margin-bottom: 3rem;
+    .logoFooter{
+        grid-column: span 3;
     }
 
-    .footer-container .footer-section:nth-child(3) .container{
-        align-items: center;
+    .contactFooter1{
+        grid-column: span 3;
     }
 
+    .contactFooter2{
+        grid-column: span 3;
+
+    }
+
+    .socialFooter{
+        grid-column: span 3;
+    }
+
+    .copyFooter{
+        grid-column: span 12;
+        display: flex;
+        justify-content: center;
+        /* align-items: start; */
+        margin-top: 5rem;
+    }
 }

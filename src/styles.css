@@ -96,6 +96,13 @@ body {
     line-height: normal;
 }
 
+.fontStyle5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 
 .fontColor1 {
     color: var(--colorPri1);
