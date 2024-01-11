@@ -1,0 +1,55 @@
+.homeRooms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.homeRooms__gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.homeRooms__gallery__card-container {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.homeRooms__gallery__card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.homeRooms__gallery__card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.homeRooms__gallery__card img:hover {
+    transform: scale(1.04);
+}
+
+.homeRooms__gallery__card-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+    background-color: rgba(40, 119, 132,0.7);
+}
+
+/* Media query for devices with a maximum width of 600 pixels */
+@media only screen and (min-width: 768px) {
+
+    .homeRooms__gallery__card-container {
+        width: 50%;
+    }
+
+}

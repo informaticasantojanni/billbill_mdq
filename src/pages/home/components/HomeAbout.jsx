@@ -15,13 +15,13 @@ const HomeAbout = () => {
     <div className="main-container">
       <div className="homeAbout mb-5">
 
-        <p className='titleSize1 fontStyle1 fontColor1 mb-2'>{t('home_about_title_1')}</p>
+        <p className='titleSize1 fontStyle1 fontColor8 mb-2'>{t('home_about_title_1')}</p>
 
 
-        <p className='textSize1 fontStyle4 fontColor1'>{t('home_about_text_1')}</p>
-        <p className='textSize1 fontStyle4 fontColor1'>{t('home_about_text_2')}</p>
-        <p className='textSize1 fontStyle4 fontColor1'>{t('home_about_text_3')}</p>
-        <p className='textSize1 fontStyle4 fontColor1'>{t('home_about_text_4')}</p>
+        <p className='textSize1 fontStyle4 fontColor8'>{t('home_about_text_1')}</p>
+        <p className='textSize1 fontStyle4 fontColor8'>{t('home_about_text_2')}</p>
+        <p className='textSize1 fontStyle4 fontColor8'>{t('home_about_text_3')}</p>
+        <p className='textSize1 fontStyle4 fontColor8'>{t('home_about_text_4')}</p>
       </div>
 
     </div>
