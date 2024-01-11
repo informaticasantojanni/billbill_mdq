@@ -13,7 +13,7 @@ import {
   TfiHeadphoneAlt,
   TfiEmail
 } from "react-icons/tfi";
-import logo from '../../assets/logos/logo_billbill_1.svg'
+import logo from '../../assets/logos/logo_billbill_footer.svg'
 import FooterLogo from './FooterLogo';
 import FooterContact from './FooterContact';
 import FooterSocial from './FooterSocial';
@@ -32,7 +32,6 @@ const Footer = () => {
         <div className='logoFooter'>
           <FooterLogo
             logo={logo}
-            textLogo='Hostel de Amigos'
           />
         </div>
 
