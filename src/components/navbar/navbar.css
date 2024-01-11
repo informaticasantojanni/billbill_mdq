@@ -9,7 +9,7 @@ nav {
 .navMobile--container {
   width: 100%;
   position: relative;
-  z-index: 1;
+
 }
 
 .navMobile__header {
@@ -106,6 +106,7 @@ nav {
   align-items: top;
   position: fixed;
   height: 200px;
+  z-index: 1;
 }
 
 .navDesktop--containerInner {

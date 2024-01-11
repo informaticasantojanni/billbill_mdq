@@ -1,19 +1,20 @@
-.homeAbout {
+.homeRooms {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 0.5rem;
+
+}
+
+.homeRooms__gallery {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 
 /* Media query for devices with a maximum width of 600 pixels */
-@media only screen and (min-width: 768px) {
-    .homeAbout {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 0.5rem;
-    }
-
-
-}
+@media only screen and (min-width: 768px) {}

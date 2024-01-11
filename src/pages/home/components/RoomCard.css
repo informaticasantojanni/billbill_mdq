@@ -1,0 +1,58 @@
+.homeRooms__gallery__card-container {
+    width: 100%;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.homeRooms__gallery__card {
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+}
+
+.homeRooms__gallery__card img {
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoom{
+    transform: scale(1.05);
+}
+
+.homeRooms__gallery__card-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(40, 119, 132, 0.7); */
+    /* background-color: rgba(211, 162, 89, 0.7); */
+    background-color: rgba(18, 20, 23, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; /* Adjust the duration and timing function as needed */
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.homeRooms__gallery__card-layer p{
+    text-align: center;
+}
+
+.homeRooms__gallery__card-layer.active {
+    opacity: 1;
+  }
+
+/* Media query for devices with a maximum width of 600 pixels */
+@media only screen and (min-width: 768px) {
+
+    .homeRooms__gallery__card-container {
+        width: 50%;
+    }
+
+}
