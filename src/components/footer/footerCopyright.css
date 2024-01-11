@@ -1,7 +1,7 @@
 .footerCopyright {
     margin-top: 55px;
     color: var(--colorPri1);
-    font-size: 16px;
+    /* font-size: 16px; */
     text-align: center;
     font-style: normal;
     font-weight: 500;

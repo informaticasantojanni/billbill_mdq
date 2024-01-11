@@ -4,7 +4,7 @@ import './footerSocial.css'
 const FooterSocial = ({ socialText, linkFb, linkIg, iconFb, iconIg }) => {
     return (
         <div className="footerSocial">
-            <h3>{socialText}</h3>
+            <h3 className='fontStyle5 textSize3'>{socialText}</h3>
             <div className='footerSocial--items'>
                 <a href={linkFb} target='_blank'>
                     <img src={iconFb} alt="Facebook" />
