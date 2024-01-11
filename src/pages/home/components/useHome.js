@@ -38,8 +38,8 @@ const useHome = () => {
     }, []);
 
     return {
-        t, 
-        truncate
+        t,
+        truncate,
     }
 }
 

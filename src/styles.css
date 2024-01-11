@@ -53,8 +53,20 @@ body {
     font-size: calc(3vw + 20px);
 }
 
+.title1Size1 {
+    font-size: calc(3vw + 20px);
+}
+
 .textSize1 {
-    font-size: calc(0.5vw + 10px);
+    font-size: calc(0.5vw + 12px);
+}
+
+.textSize2 {
+    font-size: calc(0.5vw + 14px);
+}
+
+.textSize3 {
+    font-size: calc(0.5vw + 16px);
 }
 
 .fontStyle1 {
@@ -86,6 +98,34 @@ body {
 
 
 .fontColor1 {
+    color: var(--colorPri1);
+    ;
+}
+.fontColor2 {
+    color: var(--colorPri2);
+    ;
+}
+.fontColor3 {
+    color: var(--colorPri3);
+    ;
+}
+.fontColor4 {
+    color: var(--colorPri4);
+    ;
+}
+.fontColor5 {
+    color: var(--colorPri5);
+    ;
+}
+.fontColor6 {
+    color: var(--colorPri6);
+    ;
+}
+.fontColor7 {
+    color: var(--colorPri7);
+    ;
+}
+.fontColor8 {
     color: var(--colorPri8);
     ;
 }
@@ -272,4 +312,9 @@ Styles usados anteriormente
         max-width: 1440px;
         margin: 0 auto;
     }
+
+    .textSize1 {
+        font-size: calc(0.5vw + 8px);
+    }
+    
 }
