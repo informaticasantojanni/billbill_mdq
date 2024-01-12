@@ -28,8 +28,14 @@
         "home_rooms_card_4_category": "Habitaciones privadas",
         "home_rooms_card_4_type": "",
         "home_rooms_card_4_bathroom": "Baño privado",
-
-        "home_contact_text_1": "Envie su consulta"
+        "home_services_title_1": "Servicios",
+        "home_services_item_wifi": "Free WiFi",
+        "home_services_item_snowflake": "A/C",
+        "home_services_item_bell": "Recepció24x7",
+        "home_services_item_beach": "Terraza",
+        "home_services_item_laptop": "Espacio de Coworking",
+        "home_services_item_thermometer": "Calefacción",
+        "home_services_item_lock": "Lockers"
     },
     "services": {
         "title_1": "Telediagnóstico",

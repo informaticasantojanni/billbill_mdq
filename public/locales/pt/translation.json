@@ -14,8 +14,6 @@
         "home_about_text_2": "Nosso albergue está localizado no coração de Mar del Plata, o ponto de partida ideal para desfrutar da costa e da cidade.",
         "home_about_text_3": "Nossa equipe amigável irá recebê-lo de braços abertos, garantindo que você se sinta em casa desde o momento em que chegar.",
         "home_about_text_4": "Orgulhamo-nos de criar um ambiente acolhedor e descontraído, onde viajantes de todo o mundo podem se conhecer e compartilhar experiências.",
-        "home_services_title_1": "Informes de Estudios a Distancia",
-        "home_services_text_1": "Dirigido a: Instituciones médicas, médicos y pacientes para primera o segunda opinión. Estudios realizados en otros centros de diagnóstico.",
         "home_contact_text_1": "Envie su consulta",
         "home_rooms_title_1": "Quartos",
         "home_rooms_text_1": "Oferecemos uma variedade de opções de acomodação para atender às suas necessidades. Quer prefira dormitórios compartilhados ou quartos privados, todos são projetados para oferecer conforto e privacidade.",
@@ -30,7 +28,16 @@
         "home_rooms_card_3_bathroom": "Banheiro Compartilhado",
         "home_rooms_card_4_category": "Quartos Privativos",
         "home_rooms_card_4_type": "",
-        "home_rooms_card_4_bathroom": "Banheiro Privativo"
+        "home_rooms_card_4_bathroom": "Banheiro Privativo",
+        "home_services_title_1": "Serviços",
+        "home_services_item_wifi": "Wi-Fi Grátis",
+        "home_services_item_snowflake": "Ar Condicionado",
+        "home_services_item_bell": "Recepção 24x7",
+        "home_services_item_beach": "Terraço",
+        "home_services_item_laptop": "Espaço de Coworking",
+        "home_services_item_thermometer": "Aquecimento",
+        "home_services_item_lock": "Armários"
+        
     },
     "services": {
         "title_1": "Telediagnóstico",
