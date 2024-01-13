@@ -36,13 +36,6 @@ nav {
   align-items: center;
 }
 
-.navMobile__header__content p {
-  margin: 0;
-  font-size: 1.2rem;
-  color: var(--colorPri5);
-  text-align: center;
-}
-
 .navMobile__header.expanded {
   background-color: var(--colorPri1);
 }
@@ -61,6 +54,7 @@ nav {
   padding-top: 100px;
   transform: scale(0);
   transition: opacity 0.5s ease-in-out, transform 0.2s ease-in-out;
+  z-index: 100;
 }
 
 .navMobile__body.visible {

@@ -50,11 +50,11 @@ body {
 /* FONTS */
 
 .titleSize1 {
-    font-size: calc(3vw + 20px);
+    font-size: calc(3vw + 16px);
 }
 
 .title1Size1 {
-    font-size: calc(3vw + 20px);
+    font-size: calc(3vw + 18px);
 }
 
 .textSize1 {
@@ -222,8 +222,8 @@ Styles usados anteriormente
 .btn1 {
     padding: 1rem 1.5rem;
     text-decoration: none;
-    background-color: var(--colorPri5);
-    border: 1px solid var(--colorPri5);
+    background-color: var(--colorPri2);
+    border: 1px solid var(--colorPri2);
     color: var(--colorPri1);
     transition: 0.5s;
     font-family: 'Sora', sans-serif;
@@ -233,7 +233,7 @@ Styles usados anteriormente
 
 .btn1:hover {
     background-color: transparent;
-    color: var(--colorPri5);
+    color: var(--colorPri2);
     ;
 }
 

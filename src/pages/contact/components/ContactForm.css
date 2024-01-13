@@ -40,7 +40,7 @@ body {}
     background-color: var(--colorPri1);
     outline: none;
     border-radius: 5px;
-    border: 2px solid var(--colorPri2);
+    border: 1px solid var(--colorPri2);
 }
 
 .contactForm__form__input input:focus {

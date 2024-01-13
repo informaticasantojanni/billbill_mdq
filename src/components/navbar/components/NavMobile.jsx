@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../../navbar/navbar.css';
+import '../../../../src/styles.css'
 import { navItems } from "./navItems"
 import Hamburger from './Hamburger';
-
 import { useTranslation } from 'react-i18next'
-import i18n from "../../../core/config/i18n";
 import SwitchLanguage from './SwitchLanguage';
 
 
@@ -46,12 +45,13 @@ const NavMobile = () => {
                 < div className={menuOpen ? "navMobile__header expanded" : "navMobile__header"}>
                     <div className="navMobile__header__content">
                         <div>
-                            <Hamburger menuOpen={menuOpen} setMenuOpen={setMenuOpen} hamburgerCheckbox={hamburgerCheckbox} setHamburgerCheckbox={setHamburgerCheckbox} />
+                            <p className="titleSize1 fontStyle5 fontColor8">BILL & BILL</p>
                         </div>
                         <div>
-                            <p className='titleSec3'>Bill&Bill</p>
+                            <Hamburger menuOpen={menuOpen} setMenuOpen={setMenuOpen} hamburgerCheckbox={hamburgerCheckbox} setHamburgerCheckbox={setHamburgerCheckbox} />
                         </div>
-                        <SwitchLanguage />
+
+                        {/* <SwitchLanguage /> */}
                         {/* <div>
                             <select value={locale} onChange={handleChange}>
                                 <option value="es">Español</option>
@@ -73,6 +73,9 @@ const NavMobile = () => {
                                 </li>
                             )
                         })}
+                        <li>
+                            <SwitchLanguage />
+                        </li>
                     </ul>
                 </div>
             </div>
