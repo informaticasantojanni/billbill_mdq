@@ -11,6 +11,7 @@ const SwiperComponent = ({servicesItems}) => {
     <Swiper
     loop={true}
     spaceBetween={10}
+    observer={true}
     slidesPerView={5}
     centeredSlides={false}
     autoplay={{

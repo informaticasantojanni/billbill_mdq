@@ -1,15 +1,13 @@
-import PageHeader from "../../../components/pageHeader/PageHeader"
-import ServicesList from "../components/ServicesList"
+import React from 'react';
+import PageHeader from '../../../components/pageHeader/PageHeader';
+import image from '../../../../src/assets/gallery_mdq/billbillMdq4.jpg';
 
 
 const ServicesView = () => {
   return (
 
     <div>
-      <PageHeader
-      title="Servicios"
-      />
-      <ServicesList />
+      <PageHeader title={"Servicios"} image={image} />
     </div>
 
 

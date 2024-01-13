@@ -1,9 +1,11 @@
 import React from 'react'
 import "./activitiesView.css"
+import PageHeader from '../../../components/pageHeader/PageHeader';
+import image from '../../../../src/assets/gallery_mdq/billbillMdqActividades.png';
 
 const ActivitiesView = () => {
   return (
-    <div>ActivitiesView</div>
+    <PageHeader title={"Actividades"} image={image} />
   )
 }
 

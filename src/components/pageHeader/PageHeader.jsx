@@ -2,9 +2,19 @@ import React from 'react'
 import "./PageHeader.css"
 import "../../styles.css"
 
-const PageHeader = ({ title }) => {
+const PageHeader = ({ title, image }) => {
     return (
-        <div className="header">
+        <div className="header" style={{
+            width: '100%',
+            height: '500px',
+            position: 'relative',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(${image})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+        }}>
             <div className="header--container">
                 <h2 className='titleSec2'>{title}</h2>
             </div>

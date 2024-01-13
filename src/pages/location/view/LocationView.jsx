@@ -1,9 +1,11 @@
 import React from 'react'
 import "./locationView.css"
+import PageHeader from '../../../components/pageHeader/PageHeader';
+import image from '../../../../src/assets/gallery_mdq/billbillMdqUbicacion.png';
 
 const LocationView = () => {
   return (
-    <div>LocationView</div>
+    <PageHeader title={"Ubicación"} image={image} />
   )
 }
 

@@ -17,7 +17,7 @@ const HomeView = () => {
     <div>
       <HomeHero mb="mb-10" />
       <HomeAbout mb="mb-10" />
-      <HomeGalleryMDQ />
+      <HomeGalleryMDQ  mb="mb-10"/>
       <HomeRooms mb="mb-10" />
       <HomeServices mb="mb-10" />
       <HomeTestimonials mb="mb-10" />

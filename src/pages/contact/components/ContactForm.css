@@ -31,42 +31,36 @@ body {}
     padding-left: 1rem;
     margin-bottom: 0.5rem;
     width: 100%;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
 }
 
 .contactForm__form__input input {
     width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;
-    background-color: var(--colorPri2);
+    background-color: var(--colorPri1);
     outline: none;
     border-radius: 5px;
-    border: none;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
+    border: 2px solid var(--colorPri2);
 }
 
 .contactForm__form__input input:focus {
-    background-color: var(--colorPri9);
+    background-color: var(--colorPri4);
 }
 
 .contactForm__form__input textarea {
     width: 100%;
     padding: 0.5rem;
-    background-color: var(--colorPri2);
+    background-color: var(--colorPri1);
+    border: 2px solid var(--colorPri2);
     outline: none;
     border-radius: 5px;
-    border: none;
     font-family: 'Manrope', sans-serif;
     font-weight: 200;
     font-size: 1rem;
 }
 
 .contactForm__form__input textarea:focus {
-    background-color: var(--colorPri9);
+    background-color: var(--colorPri4);
 }
 
 .contactForm__form__btn--style {
