@@ -36,7 +36,13 @@
         "home_services_item_beach": "Terraço",
         "home_services_item_laptop": "Espaço de Coworking",
         "home_services_item_thermometer": "Aquecimento",
-        "home_services_item_lock": "Armários"
+        "home_services_item_lock": "Armários",
+        "home_contact_title1": "Entre em contato",
+        "home_contact_title2": "conosco",
+        "home_contact_form_name": "Nome",
+        "home_contact_form_email": "Email",
+        "home_contact_form_message": "Mensagem",
+        "home_contact_form_bttn": "Enviar"
         
     },
     "services": {

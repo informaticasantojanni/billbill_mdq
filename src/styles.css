@@ -89,6 +89,7 @@ body {
     font-weight: 300;
     line-height: normal;
 }
+
 .fontStyle4{
     font-family: 'Montserrat';
     font-style: normal;
@@ -138,9 +139,9 @@ body {
 }
 
 
-/**
+/*
 Styles usados anteriormente
-*/
+
 
 
 .titlePri2 {
@@ -215,26 +216,28 @@ Styles usados anteriormente
 
 }
 
+*/
 
 
 /* BUTTONS */
 
-.btn1 {
-    padding: 1rem 1.5rem;
-    text-decoration: none;
-    background-color: var(--colorPri2);
-    border: 1px solid var(--colorPri2);
-    color: var(--colorPri1);
-    transition: 0.5s;
-    font-family: 'Sora', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
+.btnSend {
+    width: 200px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    color: var(--colorPri8);
+    background-color: var(--colorPri7);
+    border: 2px solid var(--colorPri7);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s all;
 }
 
-.btn1:hover {
+.btnSend:hover {
     background-color: transparent;
-    color: var(--colorPri2);
-    ;
+    border: 2px solid var(--colorPri7);
+    color: var(--colorPri7);
 }
 
 /* MARGIN */

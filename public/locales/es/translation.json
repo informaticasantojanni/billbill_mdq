@@ -35,7 +35,14 @@
         "home_services_item_beach": "Terraza",
         "home_services_item_laptop": "Espacio de Coworking",
         "home_services_item_thermometer": "Calefacción",
-        "home_services_item_lock": "Lockers"
+        "home_services_item_lock": "Lockers",
+        "home_contact_title1": "Contactate",
+        "home_contact_title2": "con nosotros",
+        "home_contact_form_name": "Nombre",
+        "home_contact_form_email": "Email",
+        "home_contact_form_message": "Mensaje",
+        "home_contact_form_bttn": "Enviar"
+
     },
     "services": {
         "title_1": "Telediagnóstico",

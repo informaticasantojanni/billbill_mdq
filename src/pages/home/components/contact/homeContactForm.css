@@ -1,0 +1,40 @@
+.homeContact__form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    background-color: var(--colorPri2);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.homeContact__form-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homeContact__form-item input {
+    width: 100%;
+    margin-bottom: 2rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+}
+
+.homeContact__form-item input:focus {
+    background-color: var(--colorPri7);
+}
+
+
+.homeContact__form-item textarea {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+}
+
+.homeContact__form-item textarea:focus {
+    background-color: var(--colorPri7);
+}
