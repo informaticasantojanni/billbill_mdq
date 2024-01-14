@@ -61,10 +61,7 @@
         "btn_sent": "Enviado"
     },
     "footer": {
-        "home": "Inicio",
-        "services": "Servicios",
-        "about": "Sobre mi",
-        "contact": "Contacto",
-        "text_1": "Informe de estudios"
+        "followUs": "Seguinos!",
+        "copyRight": "-Todos los derechos reservados."
     }
 }

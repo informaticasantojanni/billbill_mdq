@@ -17,12 +17,13 @@ import FooterLogo from './FooterLogo';
 import FooterContact from './FooterContact';
 import FooterSocial from './FooterSocial';
 import FooterCopyright from './FooterCopyright';
+import useFooter from './useFooter';
 
 
 
 const Footer = () => {
 
-  const { t } = useTranslation('translation', { keyPrefix: 'footer' });
+  const { t } = useFooter()
 
 
   return (
@@ -60,7 +61,7 @@ const Footer = () => {
 
         <div className='socialFooter'>
           <FooterSocial
-            socialText='Seguinos!'
+            socialText={t('followUs')}
             linkFb='https://www.facebook.com/profile.php?id=100093606550739&mibextid=ZbWKwL'
             linkIg='https://www.instagram.com/billandbillsantelmo/'
             iconFb={iconFb}
@@ -72,7 +73,7 @@ const Footer = () => {
           <FooterCopyright
             textYear='2024'
             textDevelop='Hornero Web'
-            textRight='-Todos los derechos reservados.'
+            textRight={t('copyRight')}
           />
         </div>
 

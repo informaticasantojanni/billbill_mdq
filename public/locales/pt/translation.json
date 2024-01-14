@@ -37,7 +37,6 @@
         "home_services_item_laptop": "Espaço de Coworking",
         "home_services_item_thermometer": "Aquecimento",
         "home_services_item_lock": "Armários"
-        
     },
     "services": {
         "title_1": "Telediagnóstico",
@@ -63,10 +62,7 @@
         "btn_sent": "Enviado"
     },
     "footer": {
-        "home": "Inicio",
-        "services": "Servicios",
-        "about": "Sobre mi",
-        "contact": "Contacto",
-        "text_1": "Informe de estudios"
+        "followUs": "Siga-nos!",
+        "copyRight": "-Todos os direitos reservados."
     }
 }

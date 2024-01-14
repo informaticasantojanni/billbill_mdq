@@ -63,10 +63,7 @@
         "btn_sent": "Send"
     },
     "footer": {
-        "home": "Home",
-        "services": "Services",
-        "about": "About me",
-        "contact": "Contact",
-        "text_1": "Medical Reports"
+        "followUs": "Follow us!",
+        "copyRight": "-All rights reserved."
     }
 }
