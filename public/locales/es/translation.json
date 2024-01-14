@@ -37,6 +37,9 @@
         "home_services_item_thermometer": "Calefacción",
         "home_services_item_lock": "Lockers"
     },
+    "rooms": {
+        "titleHeader": "Habitaciones"
+    },
     "services": {
         "title_1": "Telediagnóstico",
         "text_1": "Con nuestro servicio de telediagnóstico, la Dra. María Levin proporciona informes y diagnósticos de estudios a distancia. La eficiencia y la precisión son fundamentales para ofrecer un soporte rápido y de calidad a los profesionales de la salud.",

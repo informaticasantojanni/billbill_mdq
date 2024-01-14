@@ -39,6 +39,9 @@
         "home_services_item_lock":"Lockers"
 
     },
+    "rooms": {
+        "titleHeader": "Rooms"
+    },
     "services": {
         "title_1": "Telediagnosis",
         "text_1": "With our telediagnosis service, Dr. María Levin provides remote study reports and diagnoses. Efficiency and precision are essential to provide fast, quality support to healthcare professionals.",
