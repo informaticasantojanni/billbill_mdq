@@ -15,7 +15,7 @@ const HomeGalleryMDQ = ({ mb }) => {
         <div className="main-container">
             <div className={`homeGalleryMDQ ${mb}`}>
                 <div className="homeGallery__header">
-                    <h1 className="mb-3 titleSize1 fontStyle1 fontColor2 "> Galleria </h1>
+                    <h1 className="mb-3 titleSize1 fontStyle1 fontColor2 "> Galeria </h1>
                 </div>
                 <div className="homeGallery__body">
                     <SwiperGallery
