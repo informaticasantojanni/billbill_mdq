@@ -14,6 +14,7 @@ const SwiperComponent = ({servicesItems}) => {
     observer={true}
     slidesPerView={5}
     centeredSlides={false}
+    modules={[Autoplay, Pagination]}
     autoplay={{
       delay: 2000,
       disableOnInteraction: false,
@@ -21,7 +22,7 @@ const SwiperComponent = ({servicesItems}) => {
     // pagination={{
     //   clickable: true,
     // }}
-    modules={[Autoplay, Pagination]}
+
     breakpoints={{
       200: {
         slidesPerView: 1,

@@ -1,14 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./HomeContact.css"
 
 import iconFb from '../../../../assets/Icons/facebookBlack.svg'
 import iconIg from '../../../../assets/Icons/instagramBlack.svg'
 import iconWhApps from '../../../../assets/Icons/whatsAppBlack.svg'
 
-
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import HomeContactInfo from './HomeContactInfo'
 import HomeContactForm from './HomeContactForm'
 import useHomeContact from './useHomeContact'
@@ -20,7 +16,7 @@ const urlFetchBillBill = "https://script.google.com/macros/s/AKfycbxqt7n5uHw8MaG
 
 const HomeContact = ({ mb }) => {
 
-  const { t } = useHomeContact()
+  const { t } = useHomeContact();
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

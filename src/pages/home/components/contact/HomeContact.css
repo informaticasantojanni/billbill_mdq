@@ -8,8 +8,6 @@
 @media only screen and (min-width: 1024px) {
 
     .homeContact__container {
-       
-        
         display: flex;
         flex-direction: row;
         justify-content: space-between;
