@@ -58,7 +58,8 @@
         "roomTitle3": "Room Type 3",
         "roomDescription3": "Here is a brief description of Room 3, which is shown in the photo below, so that we can display the services it offers.",
         "roomTitle4": "Room Type 4",
-        "roomDescription4": "Here is a brief description of Room 4, which is shown in the photo below, so that we can display the services it offers."
+        "roomDescription4": "Here is a brief description of Room 4, which is shown in the photo below, so that we can display the services it offers.",
+        "textButton": "Book"
     },
     "services": {
         "title_1": "Telediagnosis",

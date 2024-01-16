@@ -7,7 +7,7 @@ const RoomButton = ({ link, textButton }) => {
     <div className='roomButton'>
       <button 
       onClick={() => window.location.href = link}
-      className='btnBook'
+      className='btnBook textSize2 fontStyle4'
       >
         {textButton}
       </button>

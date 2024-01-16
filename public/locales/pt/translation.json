@@ -57,7 +57,8 @@
         "roomTitle3": "Tipo de Quarto 3",
         "roomDescription3": "Aqui está uma breve descrição do Quarto 3, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece.",
         "roomTitle4": "Tipo de Quarto 4",
-        "roomDescription4": "Aqui está uma breve descrição do Quarto 4, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece."
+        "roomDescription4": "Aqui está uma breve descrição do Quarto 4, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece.",
+        "textButton": "Reservar"
     },
     "services": {
         "title_1": "Telediagnóstico",

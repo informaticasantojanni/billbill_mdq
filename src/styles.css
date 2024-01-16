@@ -71,6 +71,7 @@ body {
     font-size: calc(0.5vw + 16px);
 }
 
+
 .fontStyle1 {
     font-family: 'Original Surfer';
     font-style: normal;
@@ -236,7 +237,7 @@ Styles usados anteriormente
 .btnBook:hover {
     background-color: transparent;
     border: 2px solid var(--colorPri7);
-    color: var(--colorPri7);
+    color: var(--colorPri8);
 }
 
 /* MARGIN */

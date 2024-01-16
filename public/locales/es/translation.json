@@ -56,7 +56,8 @@
         "roomTitle3": "Tipo de Habitación 3",
         "roomDescription3": "Acá se describe brevemente la habitación 3 que se muestra en la foto para abajo poder mostrar los servicios que ofrece la habitación.",
         "roomTitle4": "Tipo de Habitación 4",
-        "roomDescription4": "Acá se describe brevemente la habitación 4 que se muestra en la foto para abajo poder mostrar los servicios que ofrece la habitación."
+        "roomDescription4": "Acá se describe brevemente la habitación 4 que se muestra en la foto para abajo poder mostrar los servicios que ofrece la habitación.",
+        "textButton": "Reservar"
     },
     "services": {
         "title_1": "Telediagnóstico",

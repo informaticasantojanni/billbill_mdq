@@ -21,17 +21,19 @@ const RoomsList = ({ title, paragraph }) => {
         {dataRooms.map((room, index) => (
           <div className="roomList__grid" key={index}>
             <div className={`roomsList__items_description roomsList__item${index * 2 + 1} mb-2`}>
-              <RoomDescription
-                title={t(`roomTitle${index + 1}`)}
-                description={t(`roomDescription${index + 1}`)}
-                titleServices={t('titleServices')}
-                servicesRoom1={room.servicesRoom1}
-                t={t}
-              />
+
+                <RoomDescription
+                  title={t(`roomTitle${index + 1}`)}
+                  description={t(`roomDescription${index + 1}`)}
+                  titleServices={t('titleServices')}
+                  servicesRoom1={room.servicesRoom1}
+                  t={t}
+                />
+
               <div>
                 <RoomButton
                   link="#"
-                  textButton="Reservar"
+                  textButton={t(`textButton`)}
                 />
               </div>
             </div>

@@ -5,6 +5,16 @@
     justify-content: center;
 }
 
-source {
+.roomPhoto source {
     width: 100%;
 }
+
+
+@media only screen and (min-width: 1440px) {
+
+    .roomPhoto source {
+        padding-top: 5rem;
+    }
+
+}
+
