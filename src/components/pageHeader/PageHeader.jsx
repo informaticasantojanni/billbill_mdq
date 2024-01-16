@@ -2,7 +2,7 @@ import React from 'react'
 import "./PageHeader.css"
 import "../../styles.css"
 
-const PageHeader = ({ title, image }) => {
+const PageHeader = ({ title, image, colorHeader }) => {
     return (
         <div className="header" style={{
             width: '100%',
@@ -16,7 +16,7 @@ const PageHeader = ({ title, image }) => {
             backgroundPosition: 'center',
         }}>
             <div className="header--container">
-                <h2 className='title1Size1 fontStyle1'>{title}</h2>
+                <h2 className={`title1Size1 fontStyle1 ${colorHeader}`}>{title}</h2>
             </div>
         </div>
     )

@@ -1,0 +1,25 @@
+.roomDescription h2 {
+    text-align: center;
+    color: var(--colorPri6);
+}
+
+.roomDescription p {
+    padding: 0 1rem;
+    color: var(--colorPri8);
+    text-align: center;
+}
+
+.roomDescription ul {
+    text-align: center;
+    padding: 0 2rem;
+    list-style: none;
+    color: var(--colorPri8);
+}
+
+
+.roomDescription ul li::before {
+    content: "\274D";
+    color: var(--colorPri8);
+    margin-right: 5px;
+}
+

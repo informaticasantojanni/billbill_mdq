@@ -47,6 +47,8 @@ body {
 
 }
 
+
+
 /* FONTS */
 
 .titleSize1 {
@@ -106,7 +108,6 @@ body {
 
 .fontColor1 {
     color: var(--colorPri1);
-    ;
 }
 .fontColor2 {
     color: var(--colorPri2);

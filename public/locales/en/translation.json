@@ -40,7 +40,25 @@
 
     },
     "rooms": {
-        "titleHeader": "Rooms"
+        "titleHeader": "Rooms",
+        "titleRooms": "Rooms",
+        "paragraphRooms": "We offer a variety of accommodation options to suit your needs. Whether you prefer shared dormitories or private rooms, all are designed to provide comfort and privacy.",
+        "roomTitle1": "Room Type 1",
+        "roomDescription1": "Here is a brief description of Room 1, which is shown in the photo below, so that we can display the services it offers.",
+        "titleServices": "Services",
+        "servicesRoom1": {
+            "serviceRoom1":"Service nro 1",
+            "serviceRoom2":"Service nro 2",
+            "serviceRoom3":"Service nro 3",
+            "serviceRoom4":"Service nro 4",
+            "serviceRoom5":"Service nro 5"
+        },
+        "roomTitle2": "Room Type 2",
+        "roomDescription2": "Here is a brief description of Room 2, which is shown in the photo below, so that we can display the services it offers.",
+        "roomTitle3": "Room Type 3",
+        "roomDescription3": "Here is a brief description of Room 3, which is shown in the photo below, so that we can display the services it offers.",
+        "roomTitle4": "Room Type 4",
+        "roomDescription4": "Here is a brief description of Room 4, which is shown in the photo below, so that we can display the services it offers."
     },
     "services": {
         "title_1": "Telediagnosis",

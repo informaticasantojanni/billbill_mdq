@@ -9,7 +9,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: var(--colorPri8);
+    /* color: var(--colorPri8); */
 }
 
 @media (min-width: 1024px) {
