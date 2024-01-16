@@ -9,11 +9,11 @@ const RoomDescription = ({
   t
 }) => {
   return (
-    <div className='roomDescription mt-3'>
-      <h2 className='mb-1 titleSize1 fontStyle1'>{title}</h2>
-      <p className='mb-1 textSize fontStyle4'>{description}</p>
+    <div className='roomDescription'>
+      <h2 className='textsize3 fontStyle1 mb-1'>{title}</h2>
+      <p className='textSize2 fontStyle4 mb-1'>{description}</p>
       <div>
-        <p className='mb-1 textSize2 fontStyle4'>{titleServices}:</p>
+        <p className='textSize2 fontStyle4 mb-1'>{titleServices}:</p>
         <ul>
           {servicesRoom1.map((service, index) => (
             <li key={index} className='textSize2 fontStyle4'>{t(`servicesRoom1.${service}`)}</li>
