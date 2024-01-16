@@ -58,7 +58,7 @@ body {
 }
 
 .textSize1 {
-    font-size: calc(0.5vw + 12px);
+    font-size: calc(0.8vw + 12px);
 }
 
 .textSize2 {
@@ -341,7 +341,7 @@ Styles usados anteriormente
     }
 
     .textSize1 {
-        font-size: calc(0.5vw + 8px);
+        font-size: calc(0.4vw + 12px);
     }
     
 }
