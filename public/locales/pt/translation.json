@@ -39,7 +39,26 @@
         "home_services_item_lock": "Armários"
     },
     "rooms": {
-        "titleHeader": "Quartos"
+        "titleHeader": "Quartos",
+        "titleRooms": "Quartos",
+        "paragraphRooms": "Oferecemos uma variedade de opções de acomodação para atender às suas necessidades. Seja você preferir dormitórios compartilhados ou quartos privados, todos são projetados para proporcionar conforto e privacidade.",
+        "roomTitle1": "Tipo de Quarto 1",
+        "roomDescription1": "Aqui está uma breve descrição do Quarto 1, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece.",
+        "titleServices": "Serviços",
+        "servicesRoom1": {
+            "serviceRoom1":"Serviço nro 1",
+            "serviceRoom2":"Serviço nro 2",
+            "serviceRoom3":"Serviço nro 3",
+            "serviceRoom4":"Serviço nro 4",
+            "serviceRoom5":"Serviço nro 5"
+        },
+        "roomTitle2": "Tipo de Quarto 2",
+        "roomDescription2": "Aqui está uma breve descrição do Quarto 2, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece.",
+        "roomTitle3": "Tipo de Quarto 3",
+        "roomDescription3": "Aqui está uma breve descrição do Quarto 3, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece.",
+        "roomTitle4": "Tipo de Quarto 4",
+        "roomDescription4": "Aqui está uma breve descrição do Quarto 4, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece.",
+        "textButton": "Reservar"
     },
     "services": {
         "title_1": "Telediagnóstico",

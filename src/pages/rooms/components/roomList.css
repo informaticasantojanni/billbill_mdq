@@ -1,0 +1,74 @@
+.roomList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.roomList__header {
+    text-align: center;
+}
+
+.roomList__paragraph {
+    padding: 1rem;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .roomList {
+        max-width: 1440px;
+    }
+
+    .roomList__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1250px;
+    }
+
+    .roomsList__items_description {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .roomsList__items_photo {
+        /* padding-top: 1.5rem; */
+    }
+
+    .roomsList__item1 {
+        order: 2;
+    }
+
+    .roomsList__item2 {
+        order: 1;
+    }
+
+    .roomsList__item3 {
+        order: 3;
+    }
+
+    .roomsList__item4 {
+        order: 4;
+    }
+
+    .roomsList__item5 {
+        order: 6;
+    } 
+    
+    .roomsList__item6 {
+        order: 5;
+    }   
+
+    .roomsList__item7 {
+        order: 7;
+    }   
+
+    .roomsList__item8 {
+        order: 8;
+    }   
+}
+

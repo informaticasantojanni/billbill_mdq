@@ -1,0 +1,20 @@
+.roomPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.roomPhoto source {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+    .roomPhoto source {
+        padding-top: 5rem;
+    }
+
+}
+

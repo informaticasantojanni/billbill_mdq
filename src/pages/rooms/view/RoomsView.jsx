@@ -3,6 +3,7 @@ import "./roomsView.css"
 import PageHeader from '../../../components/pageHeader/PageHeader';
 import image from '../../../../src/assets/gallery_mdq/billbillMdq3.jpg';
 import useRooms from '../useRooms';
+import RoomsList from '../components/RoomsList';
 
 const RoomsView = () => {
 
@@ -11,8 +12,15 @@ const RoomsView = () => {
 
   return (
     <div className='Rooms'>
-      <PageHeader title={t('titleHeader')} image={image}/>
-      <p>Contenido</p>
+      <PageHeader 
+      title={t('titleHeader')} 
+      image={image}
+      colorHeader={'fontColor1'}
+      />
+      <RoomsList
+        title={t('titleRooms')}
+        paragraph={t('paragraphRooms')}
+      />
     </div>
   )
 }

@@ -38,7 +38,26 @@
         "home_services_item_lock": "Lockers"
     },
     "rooms": {
-        "titleHeader": "Habitaciones"
+        "titleHeader": "Habitaciones",
+        "titleRooms": "Habitaciones",
+        "paragraphRooms": "Ofrecemos una variedad de opciones de alojamiento para adaptarnos a tus necesidades. Ya sea que prefieras dormitorios compartidos o habitaciones privadas, todas están diseñadas para brindarte comodidad y privacidad.",
+        "roomTitle1": "Tipo de Habitación 1",
+        "roomDescription1": "Acá se describe brevemente la habitación 1 que se muestra en la foto para abajo poder mostrar los servicios que ofrece la habitación.",
+        "titleServices": "Servicios",
+        "servicesRoom1": {
+            "serviceRoom1":"Servicio nro 1",
+            "serviceRoom2":"Servicio nro 2",
+            "serviceRoom3":"Servicio nro 3",
+            "serviceRoom4":"Servicio nro 4",
+            "serviceRoom5":"Servicio nro 5"
+        },
+        "roomTitle2": "Tipo de Habitación 2",
+        "roomDescription2": "Acá se describe brevemente la habitación 2 que se muestra en la foto para abajo poder mostrar los servicios que ofrece la habitación.",
+        "roomTitle3": "Tipo de Habitación 3",
+        "roomDescription3": "Acá se describe brevemente la habitación 3 que se muestra en la foto para abajo poder mostrar los servicios que ofrece la habitación.",
+        "roomTitle4": "Tipo de Habitación 4",
+        "roomDescription4": "Acá se describe brevemente la habitación 4 que se muestra en la foto para abajo poder mostrar los servicios que ofrece la habitación.",
+        "textButton": "Reservar"
     },
     "services": {
         "title_1": "Telediagnóstico",
