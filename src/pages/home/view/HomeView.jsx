@@ -22,7 +22,7 @@ const HomeView = () => {
       <HomeRooms mb="mb-10" />
       <HomeServices mb="mb-10" />
       <HomeTestimonials mb="mb-10" />
-      <HomeContact mb="mb-10"/>
+      {/* <HomeContact mb="mb-10"/> */}
       <HomeGalleryST />
 
     </div>
