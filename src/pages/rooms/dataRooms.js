@@ -22,7 +22,7 @@ const dataRooms = [
         id: 1,
         title: "roomTitle1",
         description: "roomDescription1",
-        servicesRoom: ["serviceRoom1", "serviceRoom2", "serviceRoom3", "serviceRoom4", "serviceRoom5"],
+        servicesRoom: ["room1serviceRoom1", "room1serviceRoom2", "room1serviceRoom3", "room1serviceRoom4", "serviceRoom5"],
         imgRoom1_mobile: imgRoom1_mobile,
         imgRoom1_desktop: imgRoom1_desktop 
     },

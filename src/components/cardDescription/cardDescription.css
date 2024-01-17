@@ -1,0 +1,41 @@
+.cardDescription {
+    margin-left: 1rem;
+}
+
+.cardDescription h2 {
+    text-align: center;
+    color: var(--colorPri6);
+}
+
+.cardDescription p {
+    padding: 0 1rem;
+    color: var(--colorPri8);
+    text-align: center;
+}
+
+.cardDescription ul {
+    text-align: center;
+    /* padding: 0 2rem; */
+    list-style: none;
+    color: var(--colorPri8);
+}
+
+
+.cardDescription ul li::before {
+    content: "\274D";
+    color: var(--colorPri8);
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 1440px) {
+    
+    .cardDescription h2,
+    .cardDescription p,
+    .cardDescription ul {
+        text-align: start;
+    }
+
+    .cardDescription p {
+        padding: 0;
+    }
+}

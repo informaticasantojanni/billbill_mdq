@@ -7,6 +7,7 @@ import RoomPhoto from './RoomPhoto'
 import dataRooms from '../dataRooms'
 import useRooms from '../useRooms'
 import RoomButton from './RoomButton'
+import CardDescription from '../../../components/cardDescription/CardDescription'
 
 const RoomsList = ({ title, paragraph }) => {
   const { t } = useRooms();
@@ -21,14 +22,19 @@ const RoomsList = ({ title, paragraph }) => {
         {dataRooms.map((room, index) => (
           <div className="roomList__grid" key={index}>
             <div className={`roomsList__items_description roomsList__item${index * 2 + 1} mb-2`}>
-
-                <RoomDescription
+                <CardDescription
+                  title={room.title}
+                  description={room.description}
+                  listTitle={'Servicios'}
+                  listCard={room.servicesRoom}
+                />
+                {/* <RoomDescription
                   title={t(`roomTitle${index + 1}`)}
                   description={t(`roomDescription${index + 1}`)}
                   titleServices={t('titleServices')}
                   servicesRoom1={room.servicesRoom1}
                   t={t}
-                />
+                /> */}
 
               <div>
                 <RoomButton
