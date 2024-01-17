@@ -1,14 +1,16 @@
 import React from 'react'
 import "./roomsView.css"
-import PageHeader from '../../../components/pageHeader/PageHeader';
+
 import image from '../../../../src/assets/gallery_mdq/billbillMdq3.jpg';
+
 import useRooms from '../useRooms';
 import RoomsList from '../components/RoomsList';
+import PageHeader from '../../../components/pageHeader/PageHeader';
+
 
 const RoomsView = () => {
 
   const { t } = useRooms()
-
 
   return (
     <div className='Rooms'>
@@ -18,7 +20,7 @@ const RoomsView = () => {
       colorHeader={"fontColor7"}
       />
       <RoomsList
-        title={t('titleRooms')}
+        // title={t('titleRooms')}
         paragraph={t('paragraphRooms')}
       />
     </div>
