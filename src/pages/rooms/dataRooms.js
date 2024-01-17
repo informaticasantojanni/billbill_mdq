@@ -20,29 +20,33 @@ import imgRoom4_desktop from '../../assets/roomPage/room4_desktop.jpg'
 const dataRooms = [
     {
         id: 1,
-        title: "roomTitle",
-        servicesRoom1: ["serviceRoom1", "serviceRoom2", "serviceRoom3", "serviceRoom4", "serviceRoom5"],
+        title: "roomTitle1",
+        description: "roomDescription1",
+        servicesRoom: ["serviceRoom1", "serviceRoom2", "serviceRoom3", "serviceRoom4", "serviceRoom5"],
         imgRoom1_mobile: imgRoom1_mobile,
         imgRoom1_desktop: imgRoom1_desktop 
     },
     {
         id: 2,
-        title: "roomTitle",
-        servicesRoom1: ["serviceRoom1", "serviceRoom2", "serviceRoom3", "serviceRoom4", "serviceRoom5"],
+        title: "roomTitle2",
+        description: "roomDescription2",
+        servicesRoom1: ["room2ServiceRoom1", "room2serviceRoom2", "room2serviceRoom3", "room2serviceRoom4", "room2serviceRoom5"],
         imgRoom1_mobile: imgRoom2_mobile,
         imgRoom1_desktop: imgRoom2_desktop 
     },
     {
         id: 3,
-        title: "roomTitle",
-        servicesRoom1: ["serviceRoom1", "serviceRoom2", "serviceRoom3", "serviceRoom4", "serviceRoom5"],
+        title: "roomTitle3",
+        description: "roomDescription3",
+        servicesRoom: ["room3ServiceRoom1", "room3ServiceRoom2", "room3ServiceRoom3", "room3ServiceRoom4", "room3ServiceRoom5"],
         imgRoom1_mobile: imgRoom3_mobile,
         imgRoom1_desktop: imgRoom3_desktop 
     },
     {
         id: 4,
-        title: "roomTitle",
-        servicesRoom1: ["serviceRoom1", "serviceRoom2", "serviceRoom3", "serviceRoom4", "serviceRoom5"],
+        title: "roomTitle4",
+        description: "roomDescription4",
+        servicesRoom: ["room4ServiceRoom1", "room4ServiceRoom2", "room4ServiceRoom3", "room4ServiceRoom4", "room4ServiceRoom5"],
         imgRoom1_mobile: imgRoom4_mobile,
         imgRoom1_desktop: imgRoom4_desktop 
     }
