@@ -158,6 +158,18 @@ html {
     ;
 }
 
+.bgColor1 {
+    color: var(--colorPri2);
+}
+
+.bgColor2 {
+    color: var(--colorPri5);
+}
+
+.bgColor3 {
+    color: var(--colorPri6);
+}
+
 .text-align {
     text-align: center;
 }
