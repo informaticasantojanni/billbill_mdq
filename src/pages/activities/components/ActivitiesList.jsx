@@ -26,7 +26,7 @@ const ActivitiesList = ({title, paragraph}) => {
                             <CardDescription
                                 title={t(`${activity.title}`)}
                                 description={t(`${activity.description}`)}
-                                listTitle={'Servicios'}
+                                listTitle={'Días, horarios y precios'}
                                 listCard={activity.activityInfo}
                                 t={t}
                             />
