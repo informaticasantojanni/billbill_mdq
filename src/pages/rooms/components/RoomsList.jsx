@@ -14,7 +14,7 @@ import useRooms from '../useRooms'
 import CustomButton from '../../../components/cutomButton/CustomButton'
 
 
-const RoomsList = ({ title, paragraph }) => {
+const RoomsList = ({ title, paragraph, }) => {
   const { t } = useRooms();
 
   return (
@@ -34,34 +34,18 @@ const RoomsList = ({ title, paragraph }) => {
                 listCard={room.servicesRoom}
                 t={t}
               />
-              {/* <RoomDescription
-                  title={t(`roomTitle${index + 1}`)}
-                  description={t(`roomDescription${index + 1}`)}
-                  titleServices={t('titleServices')}
-                  servicesRoom1={room.servicesRoom1}
-                  t={t}
-                /> */}
-
               <div>
-                {/* <RoomButton
-                  link="#"
-                  textButton={t(`textButton`)}
-                /> */}
                 <CustomButton
                   link={'#'}
                   text={t(`textButton`)}
                   classButton={'btnBook'}
                   classFontSize={'textSize2'}
                   classFontStyle={'fontStyle4'}
-                  />
+                />
               </div>
             </div>
 
             <div className={`roomsList__items_photo roomsList__item${index * 2 + 2} mb-2`}>
-              {/* <RoomPhoto
-                imgMobile={room.imgRoom1_mobile}
-                imgDesktop={room.imgRoom1_desktop}
-              /> */}
               <CardPhoto
                 imgMobile={room.imgRoom1_mobile}
                 imgDesktop={room.imgRoom1_desktop}
