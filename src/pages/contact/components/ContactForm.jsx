@@ -136,7 +136,7 @@ const ContactForm = () => {
                 />
               </div>
 
-              <input className="btn1 contactForm__form__btn--style mt-3" type="submit" value={btnSubmitText} />
+              <input className="btnSend contactForm__form__btn--style mt-3" type="submit" value={btnSubmitText} />
 
             </div>
 
