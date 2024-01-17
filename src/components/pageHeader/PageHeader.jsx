@@ -1,7 +1,6 @@
 import React from 'react'
 import "./PageHeader.css"
 import "../../styles.css"
-import olita from "../../assets/olita.svg"
 
 const PageHeader = ({ title, image, colorHeader }) => {
     return (

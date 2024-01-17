@@ -29,21 +29,20 @@
         "home_rooms_card_4_category": "Private Rooms",
         "home_rooms_card_4_type": "",
         "home_rooms_card_4_bathroom": "Private Bathroom",
-        "home_services_title_1" : "Services",
-        "home_services_item_wifi":"Free WiFi",
-        "home_services_item_snowflake":"A/C",
-        "home_services_item_bell":"Reception 24x7",
-        "home_services_item_beach":"Roof Top",
+        "home_services_title_1": "Services",
+        "home_services_item_wifi": "Free WiFi",
+        "home_services_item_snowflake": "A/C",
+        "home_services_item_bell": "Reception 24x7",
+        "home_services_item_beach": "Roof Top",
         "home_services_item_laptop": "Coworking area",
-        "home_services_item_thermometer":"Heather",
-        "home_services_item_lock":"Lockers",
+        "home_services_item_thermometer": "Heather",
+        "home_services_item_lock": "Lockers",
         "home_contact_title1": "",
         "home_contact_title2": "Contact us",
         "home_contact_form_name": "Name",
         "home_contact_form_email": "Email",
         "home_contact_form_message": "Message",
         "home_contact_form_bttn": "Send"
-
     },
     "rooms": {
         "titleHeader": "Rooms",
@@ -53,11 +52,11 @@
         "roomDescription1": "Here is a brief description of Room 1, which is shown in the photo below, so that we can display the services it offers.",
         "titleServices": "Services",
         "servicesRoom1": {
-            "serviceRoom1":"Service nro 1",
-            "serviceRoom2":"Service nro 2",
-            "serviceRoom3":"Service nro 3",
-            "serviceRoom4":"Service nro 4",
-            "serviceRoom5":"Service nro 5"
+            "serviceRoom1": "Service nro 1",
+            "serviceRoom2": "Service nro 2",
+            "serviceRoom3": "Service nro 3",
+            "serviceRoom4": "Service nro 4",
+            "serviceRoom5": "Service nro 5"
         },
         "roomTitle2": "Room Type 2",
         "roomDescription2": "Here is a brief description of Room 2, which is shown in the photo below, so that we can display the services it offers.",
@@ -89,6 +88,16 @@
         "btn_send": "Send",
         "btn_sending": "Send",
         "btn_sent": "Send"
+    },
+    "location": {
+        "location_text_1": "We are located in the heart of MDQ",
+        "location_text_2": "Frequently Asked Questions",
+        "byPlane": "How to get to MDQ by plane",
+        "answerByPlane": "There are 3 daily flights connecting Buenos Aires with MDQ",
+        "byBus": "How to get to MDQ by bus",
+        "answerByBus": "More than 10 bus lines arrive at the MDQ bus terminal every day",
+        "byCar": "How to get to MDQ by car",
+        "answerByCar": "The most common route is to take Route 2"
     },
     "footer": {
         "followUs": "Follow us!",
