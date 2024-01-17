@@ -11,6 +11,7 @@ import CustomButton from '../../../components/cutomButton/CustomButton'
 
 
 const RoomsList = ({ title, paragraph, }) => {
+  
   const { t } = useRooms();
 
   return (
