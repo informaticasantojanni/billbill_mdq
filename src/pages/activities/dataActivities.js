@@ -1,3 +1,13 @@
+import imgActivity1_mobile from '../../assets/activitiesPage/activity1_mobile.jpg'
+import imgActivity1_desktop from '../../assets/activitiesPage/activity1_desktop.jpg'
+import imgActivity2_mobile from '../../assets/activitiesPage/activity2_mobile.jpg'
+import imgActivity2_desktop from '../../assets/activitiesPage/activity2_desktop.jpg'
+import imgActivity3_mobile from '../../assets/activitiesPage/activity3_mobile.jpg'
+import imgActivity3_desktop from '../../assets/activitiesPage/activity3_desktop.jpg'
+import imgActivity4_mobile from '../../assets/activitiesPage/activity4_mobile.jpg'
+import imgActivity4_desktop from '../../assets/activitiesPage/activity4_desktop.jpg'
+
+
 // import imgRoom1_mobile from '../../assets/roomPage/room1_mobile.jpg'
 // import imgRoom1_desktop from '../../assets/roomPage/room1_desktop.jpg'
 // import imgRoom2_mobile from '../../assets/roomPage/room2_mobile.jpg'
