@@ -24,7 +24,6 @@ const HomeView = () => {
       <HomeTestimonials mb="mb-10" />
       <HomeContact mb="mb-10"/>
       <HomeGalleryST />
-
     </div>
   )
 }
