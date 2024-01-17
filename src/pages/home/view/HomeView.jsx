@@ -3,7 +3,7 @@ import "./homeView.css"
 
 import HomeHero from '../components/HomeHero'
 import HomeAbout from '../components/HomeAbout'
-import HomeRooms from '../components/HomeRooms'
+import HomeRooms from '../components/rooms/HomeRooms'
 import HomeTestimonials from '../components/HomeTestimonials'
 import HomeServices from '../components/services/HomeServices'
 import HomeGalleryMDQ from '../components/galleryMDQ/HomeGalleryMDQ'
@@ -14,6 +14,7 @@ import HomeContact from '../components/contact/HomeContact'
 
 
 const HomeView = () => {
+
   return (
     <div>
       <HomeHero mb="mb-10" />

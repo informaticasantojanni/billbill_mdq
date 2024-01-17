@@ -1,9 +1,10 @@
 import React from 'react'
 import "./HomeRooms.css"
-import "../../../../src/styles.css"
-import useHome from './useHome'
+import "../../../../../src/styles.css"
+import useHome from '../useHome'
 import roomsList from "./roomsList";
 import RoomCard from './RoomCard';
+
 
 
 const HomeRooms = ({ mb }) => {

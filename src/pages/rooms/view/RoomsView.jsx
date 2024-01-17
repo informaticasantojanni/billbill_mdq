@@ -7,8 +7,8 @@ import RoomsList from '../components/RoomsList';
 
 const RoomsView = () => {
 
-  const { t } = useRooms()
-
+  const { t } = useRooms();
+  window.scrollTo(0, 0);
 
   return (
     <div className='Rooms'>

@@ -19,6 +19,10 @@ body {
     color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* VARIABLES CSS */
 
 :root {
@@ -199,6 +203,23 @@ body {
     background-color: transparent;
     border: 1px solid var(--colorPri2);
     color: var(--colorPri2);
+}
+
+
+.btnView1 {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    color: var(--colorPri8);
+    background-color: var(--colorPri1);
+    border: 1px solid var(--colorPri1);
+    transition: 0.3s ease-in-out;
+}
+
+.btnView1:hover {
+    color: var(--colorPri1);
+    background-color: transparent;
+    border: 1px solid var(--colorPri1);
 }
 
 .btnBook {
