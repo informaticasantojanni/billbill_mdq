@@ -8,7 +8,7 @@ import CustomButton from '../../../components/cutomButton/CustomButton'
 import dataActivities from '../dataActivities'
 import useActivities from '../useActivities'
 
-const ActivitiesList = () => {
+const ActivitiesList = ({title, paragraph}) => {
 
     const { t } = useActivities()
 
