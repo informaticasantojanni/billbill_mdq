@@ -1,4 +1,4 @@
-.roomButton {
+.customButton {
     display: flex;
     justify-content: center;
 }
@@ -6,7 +6,7 @@
 
 @media only screen and (min-width: 1440px) {
 
-    .roomButton {
+    .customButton {
         justify-content: end;
     }
 
