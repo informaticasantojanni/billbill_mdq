@@ -9,6 +9,7 @@ import CardPhoto from '../../../components/cardPhoto/CardPhoto'
 import dataRooms from '../dataRooms'
 import useRooms from '../useRooms'
 import RoomButton from './RoomButton'
+import CustomButton from '../../../components/cutomButton/CustomButton'
 
 
 const RoomsList = ({ title, paragraph }) => {
@@ -39,10 +40,17 @@ const RoomsList = ({ title, paragraph }) => {
                 /> */}
 
               <div>
-                <RoomButton
+                {/* <RoomButton
                   link="#"
                   textButton={t(`textButton`)}
-                />
+                /> */}
+                <CustomButton
+                  link={'#'}
+                  text={t(`textButton`)}
+                  classButton={'btnBook'}
+                  classFontSize={'textSize2'}
+                  classFontStile={'fontStyle4'}
+                  />
               </div>
             </div>
 
