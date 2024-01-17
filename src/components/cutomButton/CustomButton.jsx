@@ -1,15 +1,27 @@
 import React from 'react'
 import './customButton.css'
 
-const CustomButton = ({props}) => {
+const CustomButton = (
+  {
+    link,
+    text,
+    classButton,
+    classFontSize,
+    classFontStyle
+  }) => {
+
+  const handleClick = () => {
+    window.location.href = link;
+  };
+
   return (
-    <div className={`customButton ${props.classButton} ${props.classFontSize} ${props.classFontStile} `}>
-    <button>
-      <a target="_blank" href={props.link}>
-        {props.text}
-      </a>
-    </button>
-  </div>
+    <div className='customButton'>
+      <button 
+      className={`${classButton} ${classFontSize} ${classFontStyle} `} 
+      onClick={handleClick}>
+          {text}
+      </button>
+    </div>
   )
 }
 

@@ -3,12 +3,14 @@ import './roomList.css'
 
 import RoomDescription from './RoomDescription'
 import RoomPhoto from './RoomPhoto'
+import RoomButton from './RoomButton'
+
 import CardDescription from '../../../components/cardDescription/CardDescription'
 import CardPhoto from '../../../components/cardPhoto/CardPhoto'
 
 import dataRooms from '../dataRooms'
 import useRooms from '../useRooms'
-import RoomButton from './RoomButton'
+
 import CustomButton from '../../../components/cutomButton/CustomButton'
 
 
@@ -26,10 +28,11 @@ const RoomsList = ({ title, paragraph }) => {
           <div className="roomList__grid" key={index}>
             <div className={`roomsList__items_description roomsList__item${index * 2 + 1} mb-2`}>
               <CardDescription
-                title={room.title}
-                description={room.description}
+                title={t(`${room.title}`)}
+                description={t(`${room.description}`)}
                 listTitle={'Servicios'}
                 listCard={room.servicesRoom}
+                t={t}
               />
               {/* <RoomDescription
                   title={t(`roomTitle${index + 1}`)}
@@ -49,7 +52,7 @@ const RoomsList = ({ title, paragraph }) => {
                   text={t(`textButton`)}
                   classButton={'btnBook'}
                   classFontSize={'textSize2'}
-                  classFontStile={'fontStyle4'}
+                  classFontStyle={'fontStyle4'}
                   />
               </div>
             </div>
