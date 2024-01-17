@@ -1,0 +1,25 @@
+.accordion {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--colorPri2);
+    border-radius: 10px;
+}
+
+.accordionItem__question {
+    cursor: pointer;
+    width: 100%;
+    background-color: var(--colorPri1);
+    padding: 0.5rem;
+
+    border-bottom: 1px solid var(--colorPri8);
+    display: flex;
+    justify-content: space-between;
+
+    transition: margin-bottom 0.3s ease; /* Add transition property here */
+}
+
+.accordionItem__question-marginBottom {
+
+    margin-bottom: 1rem;
+
+}

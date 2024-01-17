@@ -102,6 +102,16 @@
         "btn_sending": "Enviando",
         "btn_sent": "Enviado"
     },
+    "location": {
+        "location_text_1": "Estamos localizados no coração de MDQ",
+        "location_text_2": "Perguntas Frequentes",
+        "byPlane": "Como chegar a MDQ de avião",
+        "answerByPlane": "Existem 3 voos diários que conectam Buenos Aires a MDQ",
+        "byBus": "Como chegar a MDQ de ônibus",
+        "answerByBus": "Mais de 10 linhas de ônibus chegam à rodoviária de MDQ todos os dias",
+        "byCar": "Como chegar a MDQ de carro",
+        "answerByCar": "A rota mais comum é pegar a Rota 2"
+    },
     "footer": {
         "followUs": "Siga-nos!",
         "copyRight": "-Todos os direitos reservados."

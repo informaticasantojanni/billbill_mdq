@@ -140,6 +140,9 @@ body {
     ;
 }
 
+.text-align{
+    text-align: center;
+}
 
 /*
 Styles usados anteriormente
@@ -365,7 +368,7 @@ Styles usados anteriormente
     }
 
     .textSize1 {
-        font-size: calc(0.4vw + 12px);
+        font-size: calc(0.4vw + 10px);
     }
     
 }
