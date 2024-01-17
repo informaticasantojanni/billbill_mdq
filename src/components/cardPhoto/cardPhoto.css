@@ -1,0 +1,18 @@
+.CardPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardPhoto source {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .CardPhoto source {
+        padding-top: 5rem;
+    }
+
+}
