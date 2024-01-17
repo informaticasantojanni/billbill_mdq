@@ -1,10 +1,6 @@
 import React from 'react'
 import './roomList.css'
 
-import RoomDescription from './RoomDescription'
-import RoomPhoto from './RoomPhoto'
-import RoomButton from './RoomButton'
-
 import CardDescription from '../../../components/cardDescription/CardDescription'
 import CardPhoto from '../../../components/cardPhoto/CardPhoto'
 

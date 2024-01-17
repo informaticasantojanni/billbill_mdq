@@ -1,17 +1,17 @@
-.CardPhoto {
+.cardPhoto {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} 
 
-.CardPhoto source {
+.cardPhoto source {
     width: 100%;
 }
 
 @media only screen and (min-width: 1440px) {
 
-    .CardPhoto source {
+    .cardPhoto source {
         padding-top: 5rem;
     }
 
