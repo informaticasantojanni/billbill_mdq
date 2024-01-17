@@ -9,7 +9,8 @@ const ArrivingQA = () => {
 
     return (
         <div className=''>
-            <h2 className='titleSize3 fontStyle1 text-align mb-2'>{t('location_text_2')}</h2>
+            <h2 className='titleSize2 fontStyle1 text-align mb-2'>{t('arrivingQA_title')}</h2>
+            <h2 className='textSize2 fontStyle3 text-align mb-2'>{t('arrivingQA_text_1')}</h2>
             <Accordion items={items} />
         </div>
     )

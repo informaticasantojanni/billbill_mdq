@@ -10,7 +10,8 @@ const LocationMap = () => {
         <div className="main-container">
 
             <div className='locationMap__header'>
-            <h2 className='titleSize3 fontStyle1 text-align mt-5 mb-2'>{t('location_text_1')}</h2>
+            <h2 className='titleSize2 fontStyle1 text-align mb-1'>{t('locationMap_title')}</h2>
+            <p className='textSize2 fontStyle3 text-align mb-2'>{t('locationMap_text_1')}</p>
             </div>
 
             <div className="locationMap__iframe mb-5">

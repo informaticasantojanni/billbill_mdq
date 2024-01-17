@@ -14,8 +14,8 @@ const HomeRooms = ({ mb }) => {
     return (
         <div className="main-container">
             <div className={`homeRooms ${mb}`}>
-                <p className='titleSize1 fontStyle1 fontColor2 mb-2'>{t('home_rooms_title_1')}</p>
-                <p className='textSize1 fontStyle4 fontColor8'>{t('home_rooms_text_1')}</p>
+                <p className='titleSize3 fontStyle1 fontColor2 mb-2'>{t('home_rooms_title_1')}</p>
+                <p className='textSize1 fontStyle4 fontColor8 text-align'>{t('home_rooms_text_1')}</p>
 
                 <div className='homeRooms__gallery'>
                     {roomsList.map(room => (

@@ -4,7 +4,7 @@ import "../../styles.css"
 
 const PageHeader = ({ title, image, colorHeader }) => {
     return (
-        <div className="header" style={{
+        <div className="header mb-5" style={{
             width: '100%',
             height: '500px',
             position: 'relative',
@@ -16,7 +16,7 @@ const PageHeader = ({ title, image, colorHeader }) => {
             backgroundPosition: 'center',
         }}>
             <div className="header-container">
-                <h2 className={`title1Size1 fontStyle1 ${colorHeader}`}>{title}</h2>
+                <h2 className={`titleSize3 fontStyle1 ${colorHeader}`}>{title}</h2>
             </div>
         </div>
     )

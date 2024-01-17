@@ -14,8 +14,8 @@ const AccordionItem = ({ item }) => {
         <article onClick={toggleShow} >
             <div className={!isShowingFaq ? "accordionItem__question" : "accordionItem__question accordionItem__question-marginBottom"}>
                 <div >
-                    <p className='mb-1'>{t(item.question)}</p>
-                    {isShowingFaq && <p>{t(item.answer)}</p>}
+                    <p className='textSize1 fontStyle4 mb-1'>{t(item.question)}</p>
+                    {isShowingFaq && <p className='textSize1 fontStyle3'>{t(item.answer)}</p>}
                 </div>
                 <div>
                     <button className='' >
