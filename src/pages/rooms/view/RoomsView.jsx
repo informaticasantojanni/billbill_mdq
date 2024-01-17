@@ -15,7 +15,7 @@ const RoomsView = () => {
       <PageHeader 
       title={t('titleHeader')} 
       image={image}
-      colorHeader={'fontColor1'}
+      colorHeader={"fontColor7"}
       />
       <RoomsList
         title={t('titleRooms')}

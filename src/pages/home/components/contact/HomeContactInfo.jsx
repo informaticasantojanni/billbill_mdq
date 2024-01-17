@@ -11,10 +11,10 @@ const HomeContactInfo =({
     <div className="homeContact__info">
     <div className="homeContact__info_body mb-1">
       <div className='homeContact__info_body-title1'>
-        <p className='title1Size1 fontStyle1 fontColor2'>{title1}</p>
+        <p className='titleSize3 fontStyle1 fontColor2'>{title1}</p>
       </div>
       <div className='homeContact__info_body-title1'>
-        <p className='title1Size1 fontStyle1 fontColor2'>{title2}</p>
+        <p className='titleSize3 fontStyle1 fontColor2'>{title2}</p>
       </div>
       <div className='homeContact__info_body-socialmedia'>
         <a href="https://www.facebook.com/profile.php?id=100093606550739&mibextid=ZbWKwL" target='_blank'>

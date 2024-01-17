@@ -1,63 +1,26 @@
-import React, { useState } from 'react'
+
 import "./ContactForm.css";
-import { useTranslation } from 'react-i18next';
+import useContact from '../useContact';
+
 
 const ContactForm = () => {
-  const { t } = useTranslation('translation', { keyPrefix: 'contact' });
-  const urlFetchDailu = "https://script.google.com/macros/s/AKfycbyKxrp0TOhXXRHhdt0_YRFeJKdMA2ei3242YwtFT5Kzlcdy4QIGbS39AzY15e9RQGut/exec";
-
-  // Define state variables for form fields
-  const [name, setName] = useState('');
-  const [lastname, setLastname] = useState('');
-  const [company, setCompany] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [message, setMessage] = useState('');
-  const [btnSubmitText, setBtnSubmitText] = useState(t('btn_send'));
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setBtnSubmitText(t('btn_sending'));
-
-    // Prepara data object with form input data
-    const formData = {
-      recipient: email,
-      name: name,
-      lastname: lastname,
-      company: company,
-      phone: phone,
-      message: message
-    }
-
-    // Fetch Gmail to send email
-    fetch(urlFetchDailu, {
-      method: 'POST',
-      redirect: "follow",
-      dataType: 'json',
-      accepts: 'application/json',
-      body: JSON.stringify(formData)
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        // Handle the response from the Google Apps Script endpoint
-        console.log("Response status: ", data.status);
-        setBtnSubmitText(t('btn_sent'));
-        setTimeout(() => { setBtnSubmitText(t('btn_send')) }, 2000);
-        // Reset form fields after submission
-        setName('');
-        setLastname('');
-        setCompany('');
-        setEmail('');
-        setPhone('');
-        setMessage('');
-
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-      });
 
 
-  };
+  const {
+    t,
+    handleSubmit,
+    email,
+    setEmail,
+    name,
+    setName,
+    lastname,
+    setLastname,
+    message,
+    setMessage,
+    btnSubmitText,
+  } = useContact();
+
+
 
   return (
     <div className='contactForm mt-5 mb-5'>
@@ -65,7 +28,7 @@ const ContactForm = () => {
       <div className="contactForm--container">
 
         <div className="contactForm__header">
-          <p className='text2 mb-2'>{t('title_1')}</p>
+          <p className='textSize2 fontStyle3 mb-2'>{t('title_1')}</p>
         </div>
 
         <div className="contactForm__body">
@@ -73,7 +36,7 @@ const ContactForm = () => {
             <div className="contactForm__form text3">
 
               <div className="contactForm__form__input">
-                <label>{t('input_name')}</label>
+                <label className="textSize1 fontStyle3">{t('input_name')}</label>
                 <input
                   className='text2'
                   type="text"
@@ -84,7 +47,7 @@ const ContactForm = () => {
               </div>
 
               <div className="contactForm__form__input">
-                <label>{t('input_lastname')}</label>
+                <label className="textSize1 fontStyle3">{t('input_lastname')}</label>
                 <input
                   type="text"
                   value={lastname}
@@ -94,18 +57,7 @@ const ContactForm = () => {
               </div>
 
               <div className="contactForm__form__input">
-                <label>{t('input_institution')}</label>
-                <input
-                  type="text"
-                  value={company}
-                  onChange={(e) => setCompany(e.target.value)}
-                  required
-                />
-              </div>
-
-
-              <div className="contactForm__form__input">
-                <label>{t('input_email')}</label>
+                <label className="textSize1 fontStyle3">{t('input_email')}</label>
                 <input
                   type="email"
                   value={email}
@@ -116,27 +68,17 @@ const ContactForm = () => {
 
 
               <div className="contactForm__form__input">
-                <label>{t('input_phone')}</label>
-                <input
-                  type="text"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                  required
-                />
-              </div>
-
-
-              <div className="contactForm__form__input">
-                <label>{t('input_message')}</label>
+                <label className="textSize1 fontStyle3">{t('input_message')}</label>
                 <textarea
                   type="text"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   required
+                  rows = '8'
                 />
               </div>
 
-              <input className="btnSend contactForm__form__btn--style mt-3" type="submit" value={btnSubmitText} />
+              <input className="btnSend2 textSize1 fontStyle3" type="submit" value={btnSubmitText} />
 
             </div>
 

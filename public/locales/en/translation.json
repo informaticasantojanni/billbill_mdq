@@ -14,6 +14,7 @@
         "home_about_text_2": "Our hostel is situated in the heart of Mar del Plata, the ideal starting point to enjoy the coast and the city.",
         "home_about_text_3": "Our friendly staff will welcome you with open arms, ensuring that you feel at home from the moment you arrive.",
         "home_about_text_4": "We take pride in creating a warm and laid-back atmosphere where travelers from around the globe can connect and share experiences.",
+        "home_gallery_mdq_title" : "Gallery",
         "home_contact_text_1": "Envie su consulta",
         "home_rooms_title_1": "Rooms",
         "home_rooms_text_1": "We offer a variety of accommodation options to suit your needs. Whether you prefer shared dormitories or private rooms, all are designed to provide you with comfort and privacy.",
@@ -86,12 +87,14 @@
         "input_phone": "Phone",
         "input_message": "Message",
         "btn_send": "Send",
-        "btn_sending": "Send",
-        "btn_sent": "Send"
+        "btn_sending": "Sending",
+        "btn_sent": "Sent"
     },
     "location": {
-        "location_text_1": "We are located in the heart of MDQ",
-        "location_text_2": "Frequently Asked Questions",
+        "locationMap_title": "Where are we?",
+        "locationMap_text_1": "We are located in the heart of MDQ",
+        "arrivingQA_title": "Frequently Asked Questions",
+        "arrivingQA_text_1": "Here is a list of the most frequently asked questions:",
         "byPlane": "How to get to MDQ by plane",
         "answerByPlane": "There are 3 daily flights connecting Buenos Aires with MDQ",
         "byBus": "How to get to MDQ by bus",

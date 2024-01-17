@@ -26,7 +26,7 @@ body {
 
     --colorPri1: #fff;
     /* RGB: 255, 255, 255 */
-    --colorPri2: #287784; 
+    --colorPri2: #287784;
     /* RGB: 40, 119, 132 */
     --colorPri3: #04B3A7;
     /* RGB: 4, 179, 167 */
@@ -47,20 +47,27 @@ body {
 
 }
 
+.main-container {
+    width: 100%;
 
-
-/* FONTS */
-
-.titleSize1 {
-    font-size: calc(3vw + 16px);
 }
 
-.title1Size1 {
-    font-size: calc(3vw + 18px);
+/* FONTS Mobile*/
+
+.titleSize1 {
+    font-size: calc(0.5vw + 20px);
+}
+
+.titleSize2 {
+    font-size: calc(1vw + 24px);
+}
+
+.titleSize3 {
+    font-size: calc(1.5vw + 28px);
 }
 
 .textSize1 {
-    font-size: calc(0.8vw + 12px);
+    font-size: calc(0.5vw + 12px);
 }
 
 .textSize2 {
@@ -86,21 +93,21 @@ body {
     line-height: normal;
 }
 
-.fontStyle3{
+.fontStyle3 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     line-height: normal;
 }
 
-.fontStyle4{
+.fontStyle4 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.fontStyle5{
+.fontStyle5 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -111,135 +118,52 @@ body {
 .fontColor1 {
     color: var(--colorPri1);
 }
+
 .fontColor2 {
     color: var(--colorPri2);
     ;
 }
+
 .fontColor3 {
     color: var(--colorPri3);
     ;
 }
+
 .fontColor4 {
     color: var(--colorPri4);
     ;
 }
+
 .fontColor5 {
     color: var(--colorPri5);
     ;
 }
+
 .fontColor6 {
     color: var(--colorPri6);
     ;
 }
+
 .fontColor7 {
     color: var(--colorPri7);
     ;
 }
+
 .fontColor8 {
     color: var(--colorPri8);
     ;
 }
 
-.text-align{
+.text-align {
     text-align: center;
 }
 
-/*
-Styles usados anteriormente
 
 
-
-.titlePri2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 3rem;
-
-}
-
-.titlePri3 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
-
-}
-
-.titleSec1 {
-    font-family: 'Sora', sans-serif;
-    font-weight: 800;
-    font-size: 4rem;
-}
-
-.titleSec2 {
-    font-family: 'Sora', sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
-
-}
-
-.titleSec3 {
-    font-family: 'Sora', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-
-}
-
-.text1 {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 1.4rem;
-
-}
-
-.text2 {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 200;
-    font-size: 1.2rem;
-}
-
-.text3 {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-}
-
-.textLinks {
-    font-family: 'Sora', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
-
-}
-
-.textButton {
-    font-family: 'Sora', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
-
-}
-
-
-*/
-
-.main-container {
-    width: 100%;
-
-}
 
 /* BUTTONS */
 
 .btnSend {
-    width: 200px;
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
-    color: var(--colorPri8);
-    background-color: var(--colorPri7);
-    border: 2px solid var(--colorPri7);
-    cursor: pointer;
-    text-align: center;
-    border-radius: 5px;
-    transition: 0.3s all;
-}
-
-.btnBook {
     width: 200px;
     padding: 0.5rem 1rem;
     margin: 1rem 0;
@@ -257,6 +181,40 @@ Styles usados anteriormente
     border: 2px solid var(--colorPri7);
     color: var(--colorPri7);
 }
+
+.btnSend2 {
+    width: 200px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    color: var(--colorPri1);
+    background-color: var(--colorPri2);
+    border: 1px solid var(--colorPri2);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+
+.btnSend2:hover {
+    background-color: transparent;
+    border: 1px solid var(--colorPri2);
+    color: var(--colorPri2);
+}
+
+.btnBook {
+    width: 200px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    color: var(--colorPri8);
+    background-color: var(--colorPri7);
+    border: 2px solid var(--colorPri7);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+
+
 
 .btnBook:hover {
     background-color: transparent;
@@ -367,8 +325,29 @@ Styles usados anteriormente
         margin: 0 auto;
     }
 
-    .textSize1 {
-        font-size: calc(0.4vw + 10px);
+    /* FONTS Desktop*/
+
+    .titleSize1 {
+        font-size: calc(0.5vw + 18px);
     }
-    
+
+    .titleSize2 {
+        font-size: calc(1vw + 22px);
+    }
+
+    .titleSize3 {
+        font-size: calc(1.5vw + 26px);
+    }
+
+    .textSize1 {
+        font-size: calc(0.2vw + 14px);
+    }
+
+    .textSize2 {
+        font-size: calc(0.2vw + 16px);
+    }
+
+    .textSize3 {
+        font-size: calc(0.2vw + 18px);
+    }
 }

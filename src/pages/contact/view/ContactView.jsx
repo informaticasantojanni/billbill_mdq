@@ -7,7 +7,9 @@ import image from '../../../../src/assets/gallery_mdq/billbillMdqContacto.png';
 const ContactView = () => {
   return (
     <div>
-    <PageHeader title={"Contacto"} image={image} />
+      <PageHeader title={"Contacto"}
+        image={image}
+        colorHeader={"fontColor7"} />
       <ContactForm />
     </div>
   )

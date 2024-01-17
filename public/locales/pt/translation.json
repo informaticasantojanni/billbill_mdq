@@ -14,6 +14,7 @@
         "home_about_text_2": "Nosso albergue está localizado no coração de Mar del Plata, o ponto de partida ideal para desfrutar da costa e da cidade.",
         "home_about_text_3": "Nossa equipe amigável irá recebê-lo de braços abertos, garantindo que você se sinta em casa desde o momento em que chegar.",
         "home_about_text_4": "Orgulhamo-nos de criar um ambiente acolhedor e descontraído, onde viajantes de todo o mundo podem se conhecer e compartilhar experiências.",
+        "home_gallery_mdq_title" : "Galeria",
         "home_contact_text_1": "Envie su consulta",
         "home_rooms_title_1": "Quartos",
         "home_rooms_text_1": "Oferecemos uma variedade de opções de acomodação para atender às suas necessidades. Quer prefira dormitórios compartilhados ou quartos privados, todos são projetados para oferecer conforto e privacidade.",
@@ -52,11 +53,11 @@
         "roomDescription1": "Aqui está uma breve descrição do Quarto 1, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece.",
         "titleServices": "Serviços",
         "servicesRoom1": {
-            "serviceRoom1":"Serviço nro 1",
-            "serviceRoom2":"Serviço nro 2",
-            "serviceRoom3":"Serviço nro 3",
-            "serviceRoom4":"Serviço nro 4",
-            "serviceRoom5":"Serviço nro 5"
+            "serviceRoom1": "Serviço nro 1",
+            "serviceRoom2": "Serviço nro 2",
+            "serviceRoom3": "Serviço nro 3",
+            "serviceRoom4": "Serviço nro 4",
+            "serviceRoom5": "Serviço nro 5"
         },
         "roomTitle2": "Tipo de Quarto 2",
         "roomDescription2": "Aqui está uma breve descrição do Quarto 2, que é mostrado na foto abaixo, para que possamos exibir os serviços que ele oferece.",
@@ -90,8 +91,10 @@
         "btn_sent": "Enviado"
     },
     "location": {
-        "location_text_1": "Estamos localizados no coração de MDQ",
-        "location_text_2": "Perguntas Frequentes",
+        "locationMap_title": "Onde estamos?",
+        "locationMap_text_1": "Estamos localizados no coração de MDQ",
+        "arrivingQA_title": "Perguntas frequentes",
+        "arrivingQA_text_1": "Aqui está uma lista das perguntas mais frequentes que nos fazem:",
         "byPlane": "Como chegar a MDQ de avião",
         "answerByPlane": "Existem 3 voos diários que conectam Buenos Aires a MDQ",
         "byBus": "Como chegar a MDQ de ônibus",

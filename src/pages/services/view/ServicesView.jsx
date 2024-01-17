@@ -7,7 +7,10 @@ const ServicesView = () => {
   return (
 
     <div>
-      <PageHeader title={"Servicios"} image={image} />
+      <PageHeader 
+      title={"Servicios"} 
+      image={image} 
+      colorHeader={"fontColor7"}/>
     </div>
 
 

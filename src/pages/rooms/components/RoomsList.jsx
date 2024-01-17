@@ -15,9 +15,9 @@ const RoomsList = ({ title, paragraph }) => {
     <div className="main-container">
       <div className="roomList mt-5">
         <div className="roomList__header mb-8">
-          <div className="roomList__title title1Size1 fontStyle1 mt-4 mb-3">{title}</div>
+          <h2 className="titleSize3 fontStyle1 mt-4 mb-3">{title}</h2>
           {/* <div className="roomList__paragraph textSize3 fontStyle4 mt-4">{paragraph}</div> */}
-          <div className="textSize1 textSize3 fontStyle4 mt-4">{paragraph}</div>
+          <div className="textSize1 fontStyle4 mt-4">{paragraph}</div>
         </div>
         {dataRooms.map((room, index) => (
           <div className="roomList__grid" key={index}>

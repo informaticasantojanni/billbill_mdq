@@ -15,7 +15,7 @@ const HomeAbout = ({mb}) => {
     <div className="main-container">
       <div className= {`homeAbout ${mb}`}>
 
-        <p className='titleSize1 fontStyle1 fontColor2 mb-2'>{t('home_about_title_1')}</p>
+        <p className='titleSize3 fontStyle1 fontColor2 mb-2'>{t('home_about_title_1')}</p>
 
 
         <p className='textSize1 fontStyle4 fontColor8'>{t('home_about_text_1')}</p>
