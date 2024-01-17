@@ -10,7 +10,8 @@ import useRooms from '../useRooms'
 import CustomButton from '../../../components/cutomButton/CustomButton'
 
 
-const RoomsList = ({ title, paragraph, }) => {
+const RoomsList = ({ title, paragraph }) => {
+  
   const { t } = useRooms();
 
   return (
