@@ -112,6 +112,7 @@
         "textButton": "Go!"
     },
     "services": {
+        "titleHeader": "Services",
         "card_1": {
             "title": "Bar and Café",
             "item1": "Cocktails",
@@ -162,6 +163,7 @@
         "text_1": "Graduated from the UBA Faculty of Medicine in 1975, with a first specialization in Nuclear Medicine - the theoretical part studied at the CONEA Heavy Water facilities in Ezeiza, the practical part as a rotation in the Nuclear Medicine Service of the Roffo Hospital. In 1980 I won a scholarship from the General Electric company to study Computed Tomography in San Francisco, California, USA and during those months I also studied Magnetic Resonance in South San Francisco, with Dr. León Kaufman who was developing a prototype. Between 1981 and 1986 I worked in a private clinic in Rio de Janeiro, Brazil in charge of Neuroimaging, especially Tomography of the brain and spine. From 1989 to 2002 I worked in Magnetic Resonance with Dr Alberto Eurnekián at the San Martín de Tours clinic and Argerich Hospital (Outsourced Service). Since 1995 to date, I have been in charge of the Computed Tomography Service at the Santojanni Hospital, where I carry out the practical part and also teach since in this hospital (attached to UBA) the Medicine Course is taught from the First Year. I was also a teacher at UNSAM between 2000 and 2022 for the Technique in Diagnostic Imaging. Buenos Aires, September 18, 2023"
     },
     "contact": {
+        "titleHeader": "Contact us",
         "title_1": "Please, complete the following information",
         "input_name": "Name",
         "input_lastname": "Lastname",
@@ -174,6 +176,7 @@
         "btn_sent": "Sent"
     },
     "location": {
+        "titleHeader": "Location",
         "locationMap_title": "Where are we?",
         "locationMap_text_1": "We are located in the heart of MDQ",
         "arrivingQA_title": "Frequently Asked Questions",
