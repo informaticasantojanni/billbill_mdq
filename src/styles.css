@@ -71,15 +71,15 @@ html {
 }
 
 .textSize1 {
-    font-size: calc(0.5vw + 12px);
-}
-
-.textSize2 {
     font-size: calc(0.5vw + 14px);
 }
 
-.textSize3 {
+.textSize2 {
     font-size: calc(0.5vw + 16px);
+}
+
+.textSize3 {
+    font-size: calc(0.5vw + 18px);
 }
 
 

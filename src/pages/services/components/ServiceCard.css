@@ -1,0 +1,10 @@
+.serviceCard {
+    display: flex;
+    padding: 1rem;
+    width: 50%;
+    min-width: 350px;
+}
+
+.serviceCard__image {
+    padding: 0 1rem;
+}

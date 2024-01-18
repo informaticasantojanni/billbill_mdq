@@ -16,3 +16,11 @@
     color: var(--colorPri2);
 }
 
+
+.w-10{
+    width: 10px;
+}
+
+.h-10{
+    height: 10px;
+}

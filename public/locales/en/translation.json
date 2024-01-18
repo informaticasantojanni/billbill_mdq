@@ -14,7 +14,7 @@
         "home_about_text_2": "Our hostel is situated in the heart of Mar del Plata, the ideal starting point to enjoy the coast and the city.",
         "home_about_text_3": "Our friendly staff will welcome you with open arms, ensuring that you feel at home from the moment you arrive.",
         "home_about_text_4": "We take pride in creating a warm and laid-back atmosphere where travelers from around the globe can connect and share experiences.",
-        "home_gallery_mdq_title" : "Gallery",
+        "home_gallery_mdq_title": "Gallery",
         "home_contact_text_1": "Envie su consulta",
         "home_rooms_title_1": "Rooms",
         "home_rooms_text_1": "We offer a variety of accommodation options to suit your needs. Whether you prefer shared dormitories or private rooms, all are designed to provide you with comfort and privacy.",
@@ -112,12 +112,51 @@
         "textButton": "Go!"
     },
     "services": {
-        "title_1": "Telediagnosis",
-        "text_1": "With our telediagnosis service, Dr. María Levin provides remote study reports and diagnoses. Efficiency and precision are essential to provide fast, quality support to healthcare professionals.",
-        "title_2": "Magnetic resonance",
-        "text_2": "We offer advanced MRI services to obtain detailed images of internal structures. Our highly trained team ensures accurate studies and detailed analyzes to support the medical diagnosis.",
-        "title_3": "Computed Tomography",
-        "text_3": "We perform high-quality computed tomography studies to obtain detailed images of organs and tissues. Our accurate and reliable reports contribute to accurate diagnosis and proper treatment plan."
+        "card_1": {
+            "title": "Bar and Café",
+            "item1": "Cocktails",
+            "item2": "Craft Beer",
+            "item3": "Events and DJ Sets",
+            "item4": "Optional Breakfast Included"
+        },
+        "card_2": {
+            "title": "Cooking Like at Home",
+            "item1": "Refrigerator",
+            "item2": "Microwave",
+            "item3": "Dishes and Cutlery",
+            "item4": "Bowls, Chopsticks, Plates, Cups, etc.",
+            "item5": "Stove",
+            "item6": "Oven",
+            "item7": "Coffee Maker"
+        },
+        "card_3": {
+            "title": "Bedroom",
+            "item1": "Sheets",
+            "item2": "Hangers",
+            "item3": "Bed Linens",
+            "item4": "Additional Pillows",
+            "item5": "Blinds or Blackout Curtains"
+        },
+        "card_4": {
+            "title": "Entertainment and Connectivity",
+            "item1": "Television",
+            "item2": "WiFi",
+            "item3": "Ping Pong and Board Games",
+            "item4": "Library"
+        },
+        "card_5": {
+            "title": "Refrigeration and Heating",
+            "item1": "Air Conditioning",
+            "item2": "Heating"
+        },
+        "card_6": {
+            "title": "Bathroom and Laundry",
+            "item1": "24/7 Hot and Cold Water",
+            "item2": "Lockers",
+            "item3": "Washing Machines: available for a fee in the building",
+            "item4": "Dryers: available for a fee in the building",
+            "item5": "Iron"
+        }
     },
     "about": {
         "text_1": "Graduated from the UBA Faculty of Medicine in 1975, with a first specialization in Nuclear Medicine - the theoretical part studied at the CONEA Heavy Water facilities in Ezeiza, the practical part as a rotation in the Nuclear Medicine Service of the Roffo Hospital. In 1980 I won a scholarship from the General Electric company to study Computed Tomography in San Francisco, California, USA and during those months I also studied Magnetic Resonance in South San Francisco, with Dr. León Kaufman who was developing a prototype. Between 1981 and 1986 I worked in a private clinic in Rio de Janeiro, Brazil in charge of Neuroimaging, especially Tomography of the brain and spine. From 1989 to 2002 I worked in Magnetic Resonance with Dr Alberto Eurnekián at the San Martín de Tours clinic and Argerich Hospital (Outsourced Service). Since 1995 to date, I have been in charge of the Computed Tomography Service at the Santojanni Hospital, where I carry out the practical part and also teach since in this hospital (attached to UBA) the Medicine Course is taught from the First Year. I was also a teacher at UNSAM between 2000 and 2022 for the Technique in Diagnostic Imaging. Buenos Aires, September 18, 2023"
