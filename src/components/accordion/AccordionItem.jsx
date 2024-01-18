@@ -1,32 +1,30 @@
 import React from 'react'
 import "./Accordion.css"
 import useAccordion from "./useAccordion"
-import arrowUp from "../../../src/assets/accordion/arrowUp.svg"
-import arrowDown from "../../../src/assets/accordion/arrowDown.svg"
+import ArrowUp from './svg/ArrowUp'
+import "../../../src/styles.css"
 
 
-
-const AccordionItem = ({ item }) => {
+const AccordionItem = ({ icon: icon, question: question, answer: answer }) => {
 
     const { isShowingFaq, toggleShow, t } = useAccordion();
 
     return (
         <article onClick={toggleShow} >
-            <div className={!isShowingFaq ? "accordionItem__question" : "accordionItem__question accordionItem__question-marginBottom"}>
-                <div >
-                    <p className='textSize1 fontStyle4 mb-1'>{t(item.question)}</p>
-                    {isShowingFaq && <p className='textSize1 fontStyle3'>{t(item.answer)}</p>}
+            <div className="accordionItem">
+                <div className='accordionItem__question'>
+                    <div className="accordionItem__question-title">
+                        <img className='iconStyle' src={icon} alt="icono" />
+                        <p className='textSize1 fontStyle4 mb-1'>{t(question)}</p>
+                    </div>
+                    <div className="accordionItem__question-arrow">
+                        {isShowingFaq ? <ArrowUp rotate={0} /> : <ArrowUp rotate={180} />}
+                    </div>
                 </div>
-                <div>
-                    <button className='' >
-                        {isShowingFaq ? <img src={arrowUp} alt="minus-icon" /> : <img src={arrowDown} alt="plus-icon" />}
-                    </button>
+                <div className={isShowingFaq? 'accordionItem__answer accordionItem__answer-show' : 'accordionItem__answer'}>
+                    <p className='textSize1 fontStyle3 mt-1 mb-1'>{t(answer)}</p>
                 </div>
-
-
             </div>
-
-
         </article>
     )
 }

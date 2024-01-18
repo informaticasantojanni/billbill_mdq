@@ -7,11 +7,10 @@ const Accordion = ({ items }) => {
 
     return (
         <div className=' main-container accordion'>
-            {items.map((item, index) => {
+            {items.map((item) => {
                 return (<AccordionItem
-                    key={index}
-                    item={item} />)
-
+                    key={item.id}
+                    {...item} />)
             })}
         </div>
 

@@ -172,17 +172,21 @@
         "btn_sent": "Enviado"
     },
     "location": {
-        "titleHeader": "localização",
-        "locationMap_title": "Onde estamos?",
-        "locationMap_text_1": "Estamos localizados no coração de MDQ",
-        "arrivingQA_title": "Perguntas frequentes",
-        "arrivingQA_text_1": "Aqui está uma lista das perguntas mais frequentes que nos fazem:",
-        "byPlane": "Como chegar a MDQ de avião",
-        "answerByPlane": "Existem 3 voos diários que conectam Buenos Aires a MDQ",
-        "byBus": "Como chegar a MDQ de ônibus",
-        "answerByBus": "Mais de 10 linhas de ônibus chegam à rodoviária de MDQ todos os dias",
-        "byCar": "Como chegar a MDQ de carro",
-        "answerByCar": "A rota mais comum é pegar a Rota 2"
+        "titleHeader": "Localização",
+        "locationMap_title": "Onde Estamos?",
+        "locationMap_text_1": "Estamos localizados no coração de MDQ.",
+        "arrivingQA_title": "Como Chegar?",
+        "arrivingQA_text_1": "Explore as opções de transporte.",
+        "byPlane": "De Avião",
+        "answerByPlane": "Há 3 voos diários conectando Buenos Aires a MDQ.",
+        "byBus": "De Ônibus",
+        "answerByBus": "Mais de 10 linhas de ônibus chegam diariamente ao terminal de ônibus de MDQ.",
+        "byCar": "De Carro",
+        "answerByCar": "A rota mais comum é seguir pela Rota 2.",
+        "byTrain": "De Trem",
+        "answerByTrain": "Três trens por dia chegam da Estação Retiro em Buenos Aires.",
+        "byShuttle": "De Transfer",
+        "answerByShuttle": "Podemos buscá-lo no terminal onde você chegar."
     },
     "footer": {
         "followUs": "Siga-nos!",
