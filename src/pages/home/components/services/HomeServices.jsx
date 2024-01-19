@@ -2,7 +2,7 @@ import React from 'react';
 import './HomeServices.css';
 import "../../../../../src/styles.css"
 
-import { servicesItems } from "./servicesItems"
+import servicesItems from "./servicesItems"
 import SwiperServices from './SwiperServices'
 import useHomeServices from './useHomeServices';
 
