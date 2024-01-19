@@ -1,7 +1,9 @@
-
 .homeGallery__header {
     width: 100%;
-    text-align: center;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .homeGallery__body {
@@ -9,6 +11,7 @@
     /* height: 500px !important; */
 }
 
-@media screen and (max-width: 550px) {
-
+h1{
+    padding: 0;
 }
+@media screen and (max-width: 550px) {}

@@ -58,7 +58,7 @@ nav {
 }
 
 .navMobile__body.visible {
-  opacity: 0.85;
+  opacity: 0.95;
   transform: scale(1);
 }
 

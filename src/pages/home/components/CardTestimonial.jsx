@@ -62,7 +62,7 @@ const CardTestimonial = ({
         </div>
       </div>
       <div className="testimonials-card-body">
-        <p className="textSize1 fontStyle4 fontColor8">{truncate(description)}</p>
+        <p className="textSize1 fontStyle3 fontColor8">{truncate(description)}</p>
       </div>
       <div className="testimonials-card-footer">
         <p>{website}</p>

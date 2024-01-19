@@ -13,7 +13,7 @@ const HomeAbout = ({mb}) => {
 
 
     <div className="main-container">
-      <div className= {`homeAbout ${mb}`}>
+      <div className= {`homeAbout text-align ${mb}`}>
 
         <p className='titleSize3 fontStyle1 fontColor2 mb-2'>{t('home_about_title_1')}</p>
 
